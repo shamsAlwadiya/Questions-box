@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the main role of a full-stack developer?",
+    "options": [
+      "Only designing user interfaces",
+      "Managing both front-end and back-end development",
+      "Only handling database management",
+      "Creating animations"
+    ],
+    "answer": "Managing both front-end and back-end development"
+  },
+  {
+    "question": "Which language is primarily used for structuring content on the web?",
+    "options": [
+      "JavaScript",
+      "HTML",
+      "Python",
+      "CSS"
+    ],
+    "answer": "HTML"
+  },
+  {
+    "question": "What does CSS do in a full-stack application?",
+    "options": [
+      "Manages server logic",
+      "Styles web pages",
+      "Handles database queries",
+      "Secures APIs"
+    ],
+    "answer": "Styles web pages"
+  },
+  {
+    "question": "Which tag is used to create a button in HTML?",
+    "options": [
+      "<button>",
+      "<btn>",
+      "<input>",
+      "<click>"
+    ],
+    "answer": "<button>"
+  },
+  {
+    "question": "What is the purpose of JavaScript in a full-stack application?",
+    "options": [
+      "To style web pages",
+      "To add interactivity and dynamic content",
+      "To manage database schemas",
+      "To secure server routes"
+    ],
+    "answer": "To add interactivity and dynamic content"
+  },
+  {
+    "question": "Which HTTP method is used to send data to a server?",
+    "options": [
+      "GET",
+      "POST",
+      "DELETE",
+      "PUT"
+    ],
+    "answer": "POST"
+  },
+  {
+    "question": "What is a database in the context of full-stack development?",
+    "options": [
+      "A tool for styling web pages",
+      "A system for storing and managing data",
+      "A framework for front-end development",
+      "A library for animations"
+    ],
+    "answer": "A system for storing and managing data"
+  },
+  {
+    "question": "Which tag is used to link an external CSS file in HTML?",
+    "options": [
+      "<script>",
+      "<style>",
+      "<link>",
+      "<css>"
+    ],
+    "answer": "<link>"
+  },
+  {
+    "question": "What does API stand for in full-stack development?",
+    "options": [
+      "Application Programming Interface",
+      "Automated Process Integration",
+      "Advanced Programming Interface",
+      "Application Process Identifier"
+    ],
+    "answer": "Application Programming Interface"
+  },
+  {
+    "question": "Which CSS property is used to set the font size of text?",
+    "options": [
+      "font-size",
+      "text-size",
+      "size",
+      "font-style"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "question": "What is the purpose of a server in a full-stack application?",
+    "options": [
+      "To handle client requests and send responses",
+      "To create front-end animations",
+      "To style web pages",
+      "To manage browser storage"
+    ],
+    "answer": "To handle client requests and send responses"
+  },
+  {
+    "question": "Which HTML tag is used to create a form?",
+    "options": [
+      "<form>",
+      "<input>",
+      "<field>",
+      "<data>"
+    ],
+    "answer": "<form>"
+  },
+  {
+    "question": "Which JavaScript method is used to select an element by its ID?",
+    "options": [
+      "getElementById()",
+      "querySelector()",
+      "getElementsByClass()",
+      "selectElement()"
+    ],
+    "answer": "getElementById()"
+  },
+  {
+    "question": "What is the purpose of a 'route' in a back-end framework?",
+    "options": [
+      "To define endpoints for client requests",
+      "To style web pages",
+      "To manage front-end state",
+      "To create animations"
+    ],
+    "answer": "To define endpoints for client requests"
+  },
+  {
+    "question": "Which database is an example of a relational database?",
+    "options": [
+      "MongoDB",
+      "Redis",
+      "MySQL",
+      "Cassandra"
+    ],
+    "answer": "MySQL"
+  },
+  {
+    "question": "What does JSON stand for?",
+    "options": [
+      "JavaScript Object Notation",
+      "Java Standard Output Network",
+      "JavaScript Online Node",
+      "Java System Object Notation"
+    ],
+    "answer": "JavaScript Object Notation"
+  },
+  {
+    "question": "Which CSS property is used to align text to the center?",
+    "options": [
+      "text-align",
+      "align-content",
+      "text-center",
+      "center"
+    ],
+    "answer": "text-align"
+  },
+  {
+    "question": "What is the purpose of the HTTP status code 404?",
+    "options": [
+      "To indicate a successful request",
+      "To indicate a resource was not found",
+      "To indicate a server error",
+      "To indicate an unauthorized request"
+    ],
+    "answer": "To indicate a resource was not found"
+  },
+  {
+    "question": "Which HTML attribute specifies the destination of a hyperlink?",
+    "options": [
+      "src",
+      "href",
+      "alt",
+      "link"
+    ],
+    "answer": "href"
+  },
+  {
+    "question": "Which back-end framework is commonly used with Node.js?",
+    "options": [
+      "React",
+      "Express",
+      "Angular",
+      "Vue.js"
+    ],
+    "answer": "Express"
+  },
+  {
+    "question": "What is the purpose of a primary key in a database?",
+    "options": [
+      "To style database tables",
+      "To uniquely identify each record",
+      "To manage API endpoints",
+      "To create front-end forms"
+    ],
+    "answer": "To uniquely identify each record"
+  },
+  {
+    "question": "Which JavaScript keyword declares a block-scoped variable?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "function"
+    ],
+    "answer": "let"
+  },
+  {
+    "question": "What is the purpose of a 'GET' request in a full-stack application?",
+    "options": [
+      "To update data on the server",
+      "To retrieve data from the server",
+      "To delete data from the server",
+      "To create new data"
+    ],
+    "answer": "To retrieve data from the server"
+  },
+  {
+    "question": "Which HTML tag is used to create a heading?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "answer": "<h1>"
+  },
+  {
+    "question": "What is the purpose of a back-end controller in a full-stack application?",
+    "options": [
+      "To handle business logic and process requests",
+      "To create front-end animations",
+      "To style web pages",
+      "To manage browser cookies"
+    ],
+    "answer": "To handle business logic and process requests"
+  },
+  {
+    "question": "Which CSS property is used to add spacing between elements?",
+    "options": [
+      "padding",
+      "margin",
+      "border",
+      "spacing"
+    ],
+    "answer": "margin"
+  },
+  {
+    "question": "What is the purpose of authentication in a full-stack application?",
+    "options": [
+      "To verify user identity",
+      "To style web pages",
+      "To create database tables",
+      "To manage front-end state"
+    ],
+    "answer": "To verify user identity"
+  },
+  {
+    "question": "Which SQL command is used to insert data into a database?",
+    "options": [
+      "SELECT",
+      "INSERT",
+      "UPDATE",
+      "DELETE"
+    ],
+    "answer": "INSERT"
+  },
+  {
+    "question": "Which JavaScript method is used to add an event listener to an element?",
+    "options": [
+      "addEvent()",
+      "onEvent()",
+      "addEventListener()",
+      "attachEvent()"
+    ],
+    "answer": "addEventListener()"
+  },
+  {
+    "question": "What is the purpose of a REST API in a full-stack application?",
+    "options": [
+      "To provide a way for the front-end to communicate with the back-end",
+      "To style web pages",
+      "To create animations",
+      "To manage browser storage"
+    ],
+    "answer": "To provide a way for the front-end to communicate with the back-end"
+  }
+]

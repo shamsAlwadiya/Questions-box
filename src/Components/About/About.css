@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 55px 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-content {
+  flex: 1;
+  max-width: 50%;
+  margin-top: 30px;
+
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.coding-image {
+  flex: 1;
+  max-width: 50%;
+  height: auto;
+  border-radius: 6px;
+  width: 50%;
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the purpose of the 'fetch' API in a full-stack application?",
+    "options": [
+      "To style web pages",
+      "To make HTTP requests to a server",
+      "To manage database schemas",
+      "To create animations"
+    ],
+    "answer": "To make HTTP requests to a server"
+  },
+  {
+    "question": "Which CSS property is used to create a flexible layout?",
+    "options": [
+      "display: flex;",
+      "position: absolute;",
+      "float: left;",
+      "margin: auto;"
+    ],
+    "answer": "display: flex;"
+  },
+  {
+    "question": "What is the role of an ORM in a full-stack application?",
+    "options": [
+      "To manage CSS styles",
+      "To map database tables to application objects",
+      "To handle front-end routing",
+      "To optimize API performance"
+    ],
+    "answer": "To map database tables to application objects"
+  },
+  {
+    "question": "Which JavaScript method is used to parse a JSON string into an object?",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "JSON.convert()",
+      "JSON.objectify()"
+    ],
+    "answer": "JSON.parse()"
+  },
+  {
+    "question": "What is the purpose of a 'middleware' in a back-end framework like Express.js?",
+    "options": [
+      "To process requests before reaching route handlers",
+      "To manage front-end state",
+      "To create database tables",
+      "To style API responses"
+    ],
+    "answer": "To process requests before reaching route handlers"
+  },
+  {
+    "question": "Which HTML5 element is used to define navigation links?",
+    "options": [
+      "<section>",
+      "<nav>",
+      "<aside>",
+      "<footer>"
+    ],
+    "answer": "<nav>"
+  },
+  {
+    "question": "What does the SQL 'JOIN' clause do in a full-stack application?",
+    "options": [
+      "Deletes records from a table",
+      "Combines rows from two or more tables",
+      "Updates existing records",
+      "Creates a new table"
+    ],
+    "answer": "Combines rows from two or more tables"
+  },
+  {
+    "question": "Which React hook is used to manage state in a functional component?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useContext",
+      "useReducer"
+    ],
+    "answer": "useState"
+  },
+  {
+    "question": "What is the purpose of the CSS 'media query' in a full-stack application?",
+    "options": [
+      "To apply styles based on device characteristics",
+      "To manage server-side logic",
+      "To handle database queries",
+      "To create animations"
+    ],
+    "answer": "To apply styles based on device characteristics"
+  },
+  {
+    "question": "Which HTTP status code indicates an unauthorized request?",
+    "options": [
+      "200",
+      "401",
+      "404",
+      "500"
+    ],
+    "answer": "401"
+  },
+  {
+    "question": "What is the purpose of the 'async/await' syntax in JavaScript?",
+    "options": [
+      "To handle synchronous code",
+      "To simplify asynchronous code execution",
+      "To manage CSS transitions",
+      "To optimize database queries"
+    ],
+    "answer": "To simplify asynchronous code execution"
+  },
+  {
+    "question": "Which database type is best suited for storing unstructured data?",
+    "options": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "SQLite"
+    ],
+    "answer": "MongoDB"
+  },
+  {
+    "question": "What is the purpose of the 'useEffect' hook in React?",
+    "options": [
+      "To manage component state",
+      "To perform side effects in functional components",
+      "To handle form submissions",
+      "To optimize rendering"
+    ],
+    "answer": "To perform side effects in functional components"
+  },
+  {
+    "question": "Which CSS property is used to create rounded corners on an element?",
+    "options": [
+      "border-radius",
+      "corner-radius",
+      "border-curve",
+      "round-border"
+    ],
+    "answer": "border-radius"
+  },
+  {
+    "question": "What is the purpose of a 'foreign key' in a relational database?",
+    "options": [
+      "To uniquely identify a record",
+      "To establish a relationship between two tables",
+      "To index a column for faster queries",
+      "To encrypt data"
+    ],
+    "answer": "To establish a relationship between two tables"
+  },
+  {
+    "question": "Which JavaScript method is used to add an element to the DOM?",
+    "options": [
+      "appendChild()",
+      "addElement()",
+      "insertNode()",
+      "createNode()"
+    ],
+    "answer": "appendChild()"
+  },
+  {
+    "question": "What is the purpose of the 'CORS' policy in a full-stack application?",
+    "options": [
+      "To secure database connections",
+      "To allow or restrict cross-origin resource sharing",
+      "To manage front-end state",
+      "To optimize API performance"
+    ],
+    "answer": "To allow or restrict cross-origin resource sharing"
+  },
+  {
+    "question": "Which HTML attribute makes an input field mandatory in a form?",
+    "options": [
+      "required",
+      "mandatory",
+      "validate",
+      "must"
+    ],
+    "answer": "required"
+  },
+  {
+    "question": "What is the purpose of a 'RESTful' API in a full-stack application?",
+    "options": [
+      "To provide a stateless, client-server communication model",
+      "To manage front-end styling",
+      "To create database schemas",
+      "To handle animations"
+    ],
+    "answer": "To provide a stateless, client-server communication model"
+  },
+  {
+    "question": "Which Node.js module is used to create an HTTP server?",
+    "options": [
+      "fs",
+      "http",
+      "path",
+      "url"
+    ],
+    "answer": "http"
+  },
+  {
+    "question": "What is the purpose of the CSS 'box-shadow' property?",
+    "options": [
+      "To create a shadow effect around an element",
+      "To set the element's border color",
+      "To control text alignment",
+      "To manage element positioning"
+    ],
+    "answer": "To create a shadow effect around an element"
+  },
+  {
+    "question": "Which SQL command is used to update existing records in a database?",
+    "options": [
+      "INSERT",
+      "UPDATE",
+      "DELETE",
+      "SELECT"
+    ],
+    "answer": "UPDATE"
+  },
+  {
+    "question": "What is the purpose of the 'prop' in a React component?",
+    "options": [
+      "To manage component state",
+      "To pass data to a component",
+      "To handle CSS styles",
+      "To optimize rendering"
+    ],
+    "answer": "To pass data to a component"
+  },
+  {
+    "question": "Which HTTP method is used to update an existing resource?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "answer": "PUT"
+  },
+  {
+    "question": "What is the purpose of the 'dotenv' package in a Node.js application?",
+    "options": [
+      "To manage environment variables",
+      "To handle database queries",
+      "To create front-end forms",
+      "To style API responses"
+    ],
+    "answer": "To manage environment variables"
+  },
+  {
+    "question": "Which CSS pseudo-class styles an element when it is focused?",
+    "options": [
+      ":hover",
+      ":active",
+      ":focus",
+      ":visited"
+    ],
+    "answer": ":focus"
+  },
+  {
+    "question": "What is the purpose of a 'session' in a full-stack application?",
+    "options": [
+      "To store temporary user data across requests",
+      "To manage database backups",
+      "To create front-end animations",
+      "To optimize server performance"
+    ],
+    "answer": "To store temporary user data across requests"
+  },
+  {
+    "question": "Which JavaScript method is used to remove an element from an array?",
+    "options": [
+      "pop()",
+      "push()",
+      "add()",
+      "insert()"
+    ],
+    "answer": "pop()"
+  },
+  {
+    "question": "What is the purpose of the HTML 'data-' attribute in a full-stack application?",
+    "options": [
+      "To store custom data attributes on elements",
+      "To define CSS styles",
+      "To manage server routes",
+      "To handle database queries"
+    ],
+    "answer": "To store custom data attributes on elements"
+  },
+  {
+    "question": "Which back-end framework is known for its asynchronous capabilities in Python?",
+    "options": [
+      "Django",
+      "Flask",
+      "FastAPI",
+      "Bottle"
+    ],
+    "answer": "FastAPI"
+  }
+]

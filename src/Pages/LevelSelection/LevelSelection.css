@@ -1,0 +1,69 @@
+/* LevelSelection.css */
+
+.level-selection {
+  text-align: center;
+  padding: 1rem;
+}
+.level-selection h2{
+    font-size: 35px;
+}
+.level-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.level-cards .level-name{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+.level-cards .icon{
+    margin-top: 30px;
+}
+.level-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 600px;
+    height: 130px;
+    cursor: pointer;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+}
+.card.beginner {
+  background-color: #DCFCE7;
+}
+.card.intermediate {
+  background-color: #FEF9C3;
+}
+.card.advanced {
+  background-color: #FECACA;
+}
+body.dark-mode .card{
+    color: #000;
+}
+body.dark-mode .card.beginner {
+  background-color: #28b74e;
+}
+body.dark-mode .card.intermediate {
+  background-color: #c7c938;
+}
+body.dark-mode .card.advanced {
+  background-color: #c83f3f;
+}
+.card{
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

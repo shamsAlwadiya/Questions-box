@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the primary role of a backend in web development?",
+    "options": [
+      "Designing user interfaces",
+      "Managing server-side logic and databases",
+      "Creating animations",
+      "Styling web pages"
+    ],
+    "answer": "Managing server-side logic and databases"
+  },
+  {
+    "question": "Which language is commonly used for backend development?",
+    "options": [
+      "HTML",
+      "CSS",
+      "Node.js",
+      "JavaScript (for frontend only)"
+    ],
+    "answer": "Node.js"
+  },
+  {
+    "question": "What does API stand for in backend development?",
+    "options": [
+      "Application Programming Interface",
+      "Automated Process Integration",
+      "Application Process Identifier",
+      "Advanced Programming Interface"
+    ],
+    "answer": "Application Programming Interface"
+  },
+  {
+    "question": "Which HTTP method is used to retrieve data from a server?",
+    "options": [
+      "POST",
+      "GET",
+      "PUT",
+      "DELETE"
+    ],
+    "answer": "GET"
+  },
+  {
+    "question": "What is a database used for in backend development?",
+    "options": [
+      "Storing and managing data",
+      "Styling web pages",
+      "Creating user interfaces",
+      "Running animations"
+    ],
+    "answer": "Storing and managing data"
+  },
+  {
+    "question": "Which of the following is a popular relational database management system?",
+    "options": [
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Cassandra"
+    ],
+    "answer": "MySQL"
+  },
+  {
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Logic",
+      "System Query Language",
+      "Sequential Query Language"
+    ],
+    "answer": "Structured Query Language"
+  },
+  {
+    "question": "Which HTTP status code indicates a successful request?",
+    "options": [
+      "404",
+      "500",
+      "200",
+      "403"
+    ],
+    "answer": "200"
+  },
+  {
+    "question": "What is the purpose of a server in backend development?",
+    "options": [
+      "To handle client requests and send responses",
+      "To design web page layouts",
+      "To create client-side scripts",
+      "To manage browser cookies"
+    ],
+    "answer": "To handle client requests and send responses"
+  },
+  {
+    "question": "Which file format is commonly used for API data exchange?",
+    "options": [
+      "HTML",
+      "CSS",
+      "JSON",
+      "XML"
+    ],
+    "answer": "JSON"
+  },
+  {
+    "question": "What is the purpose of the 'POST' HTTP method?",
+    "options": [
+      "To delete data from the server",
+      "To send data to the server to create or update resources",
+      "To retrieve data from the server",
+      "To modify server configurations"
+    ],
+    "answer": "To send data to the server to create or update resources"
+  },
+  {
+    "question": "Which of the following is a backend framework for Python?",
+    "options": [
+      "React",
+      "Django",
+      "Angular",
+      "Vue.js"
+    ],
+    "answer": "Django"
+  },
+  {
+    "question": "What does REST stand for in the context of APIs?",
+    "options": [
+      "Representational State Transfer",
+      "Remote System Technology",
+      "Responsive State Transition",
+      "Relational Storage Technique"
+    ],
+    "answer": "Representational State Transfer"
+  },
+  {
+    "question": "Which of the following is a NoSQL database?",
+    "options": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "SQLite"
+    ],
+    "answer": "MongoDB"
+  },
+  {
+    "question": "What is the purpose of middleware in a backend framework?",
+    "options": [
+      "To style web pages",
+      "To handle requests and responses between the client and server",
+      "To create animations",
+      "To manage browser storage"
+    ],
+    "answer": "To handle requests and responses between the client and server"
+  },
+  {
+    "question": "Which HTTP method is used to update an existing resource on the server?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "answer": "PUT"
+  },
+  {
+    "question": "What is the role of a primary key in a database table?",
+    "options": [
+      "To style the table",
+      "To uniquely identify each record",
+      "To link external scripts",
+      "To sort the table data"
+    ],
+    "answer": "To uniquely identify each record"
+  },
+  {
+    "question": "Which of the following is a common backend programming language?",
+    "options": [
+      "CSS",
+      "Java",
+      "HTML",
+      "JavaScript (for frontend only)"
+    ],
+    "answer": "Java"
+  },
+  {
+    "question": "What does CRUD stand for in database operations?",
+    "options": [
+      "Create, Read, Update, Delete",
+      "Connect, Retrieve, Update, Destroy",
+      "Compile, Run, Update, Deploy",
+      "Create, Render, Upgrade, Drop"
+    ],
+    "answer": "Create, Read, Update, Delete"
+  },
+  {
+    "question": "Which HTTP status code indicates a resource was not found?",
+    "options": [
+      "200",
+      "404",
+      "500",
+      "301"
+    ],
+    "answer": "404"
+  },
+  {
+    "question": "What is the purpose of a backend route?",
+    "options": [
+      "To define the path for a client request to reach a specific endpoint",
+      "To style web pages",
+      "To create animations",
+      "To manage browser cookies"
+    ],
+    "answer": "To define the path for a client request to reach a specific endpoint"
+  },
+  {
+    "question": "Which of the following is a backend framework for Node.js?",
+    "options": [
+      "Express",
+      "React",
+      "Vue.js",
+      "Angular"
+    ],
+    "answer": "Express"
+  },
+  {
+    "question": "What is the purpose of authentication in a backend system?",
+    "options": [
+      "To verify the identity of users",
+      "To style the user interface",
+      "To optimize database queries",
+      "To create animations"
+    ],
+    "answer": "To verify the identity of users"
+  },
+  {
+    "question": "Which SQL command is used to retrieve data from a database?",
+    "options": [
+      "INSERT",
+      "UPDATE",
+      "SELECT",
+      "DELETE"
+    ],
+    "answer": "SELECT"
+  },
+  {
+    "question": "What is the purpose of environment variables in backend development?",
+    "options": [
+      "To store configuration settings securely",
+      "To style web pages",
+      "To manage client-side scripts",
+      "To create animations"
+    ],
+    "answer": "To store configuration settings securely"
+  },
+  {
+    "question": "Which HTTP method is used to remove a resource from the server?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ],
+    "answer": "DELETE"
+  },
+  {
+    "question": "What is a common use of JSON Web Tokens (JWT) in backend development?",
+    "options": [
+      "To style APIs",
+      "To authenticate and authorize users",
+      "To create database tables",
+      "To manage client-side storage"
+    ],
+    "answer": "To authenticate and authorize users"
+  },
+  {
+    "question": "Which of the following is a relational database operation?",
+    "options": [
+      "JOIN",
+      "PUSH",
+      "POP",
+      "MAP"
+    ],
+    "answer": "JOIN"
+  },
+  {
+    "question": "What is the purpose of a backend controller?",
+    "options": [
+      "To handle business logic and process requests",
+      "To create user interfaces",
+      "To manage browser cookies",
+      "To style web pages"
+    ],
+    "answer": "To handle business logic and process requests"
+  },
+  {
+    "question": "Which protocol is commonly used for secure data transfer in backend systems?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "HTTPS",
+      "SMTP"
+    ],
+    "answer": "HTTPS"
+  }
+]

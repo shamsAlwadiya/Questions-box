@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the purpose of an ORM in backend development?",
+    "options": [
+      "To manage database migrations",
+      "To map database tables to application objects",
+      "To optimize server performance",
+      "To handle HTTP requests"
+    ],
+    "answer": "To map database tables to application objects"
+  },
+  {
+    "question": "Which HTTP status code indicates that a request is unauthorized?",
+    "options": [
+      "403",
+      "401",
+      "404",
+      "500"
+    ],
+    "answer": "401"
+  },
+  {
+    "question": "What is the role of a 'middleware' function in Express.js?",
+    "options": [
+      "To define database schemas",
+      "To process requests before reaching route handlers",
+      "To render HTML templates",
+      "To manage client-side scripts"
+    ],
+    "answer": "To process requests before reaching route handlers"
+  },
+  {
+    "question": "Which SQL clause is used to filter grouped results?",
+    "options": [
+      "WHERE",
+      "HAVING",
+      "GROUP BY",
+      "ORDER BY"
+    ],
+    "answer": "HAVING"
+  },
+  {
+    "question": "What is the purpose of a 'foreign key' in a relational database?",
+    "options": [
+      "To uniquely identify a record",
+      "To establish a relationship between two tables",
+      "To index a column for faster queries",
+      "To store encrypted data"
+    ],
+    "answer": "To establish a relationship between two tables"
+  },
+  {
+    "question": "Which Node.js module is used to handle file system operations?",
+    "options": [
+      "http",
+      "fs",
+      "path",
+      "url"
+    ],
+    "answer": "fs"
+  },
+  {
+    "question": "What is the purpose of the 'CORS' policy in backend development?",
+    "options": [
+      "To secure database connections",
+      "To allow or restrict cross-origin resource sharing",
+      "To optimize API performance",
+      "To manage session cookies"
+    ],
+    "answer": "To allow or restrict cross-origin resource sharing"
+  },
+  {
+    "question": "Which database query language is used with MongoDB?",
+    "options": [
+      "SQL",
+      "GraphQL",
+      "MongoDB Query Language",
+      "CQL"
+    ],
+    "answer": "MongoDB Query Language"
+  },
+  {
+    "question": "What does the acronym ACID stand for in the context of databases?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Access, Control, Integrity, Durability",
+      "Atomicity, Connectivity, Isolation, Dependency",
+      "Availability, Consistency, Indexing, Durability"
+    ],
+    "answer": "Atomicity, Consistency, Isolation, Durability"
+  },
+  {
+    "question": "Which HTTP method is considered idempotent?",
+    "options": [
+      "POST",
+      "GET",
+      "PATCH",
+      "PUT"
+    ],
+    "answer": "PUT"
+  },
+  {
+    "question": "What is the purpose of a 'connection pool' in database management?",
+    "options": [
+      "To store database backups",
+      "To manage multiple database connections efficiently",
+      "To index database tables",
+      "To encrypt database queries"
+    ],
+    "answer": "To manage multiple database connections efficiently"
+  },
+  {
+    "question": "Which Python framework is known for its 'batteries-included' philosophy?",
+    "options": [
+      "Flask",
+      "FastAPI",
+      "Django",
+      "Tornado"
+    ],
+    "answer": "Django"
+  },
+  {
+    "question": "What is the purpose of the 'bcrypt' library in backend development?",
+    "options": [
+      "To handle HTTP requests",
+      "To hash and verify passwords securely",
+      "To manage database migrations",
+      "To optimize API performance"
+    ],
+    "answer": "To hash and verify passwords securely"
+  },
+  {
+    "question": "Which SQL command is used to add a new column to an existing table?",
+    "options": [
+      "ADD COLUMN",
+      "ALTER TABLE",
+      "MODIFY TABLE",
+      "UPDATE COLUMN"
+    ],
+    "answer": "ALTER TABLE"
+  },
+  {
+    "question": "What is the purpose of a 'RESTful' API?",
+    "options": [
+      "To provide a stateless, client-server communication model",
+      "To manage client-side state",
+      "To render HTML templates",
+      "To handle file uploads only"
+    ],
+    "answer": "To provide a stateless, client-server communication model"
+  },
+  {
+    "question": "Which of the following is a benefit of using a NoSQL database like MongoDB?",
+    "options": [
+      "Strict schema enforcement",
+      "Flexible schema for unstructured data",
+      "Support for complex joins",
+      "Fixed table structures"
+    ],
+    "answer": "Flexible schema for unstructured data"
+  },
+  {
+    "question": "What is the purpose of the 'dotenv' package in Node.js?",
+    "options": [
+      "To manage environment variables",
+      "To handle database queries",
+      "To create API endpoints",
+      "To render templates"
+    ],
+    "answer": "To manage environment variables"
+  },
+  {
+    "question": "Which HTTP status code indicates a server error?",
+    "options": [
+      "200",
+      "404",
+      "500",
+      "403"
+    ],
+    "answer": "500"
+  },
+  {
+    "question": "What is the purpose of a 'transaction' in a relational database?",
+    "options": [
+      "To ensure a series of operations are executed as a single unit",
+      "To index database tables",
+      "To backup the database",
+      "To optimize query performance"
+    ],
+    "answer": "To ensure a series of operations are executed as a single unit"
+  },
+  {
+    "question": "Which backend framework is known for its asynchronous capabilities in Python?",
+    "options": [
+      "Django",
+      "Flask",
+      "FastAPI",
+      "Bottle"
+    ],
+    "answer": "FastAPI"
+  },
+  {
+    "question": "What is the role of a 'load balancer' in a backend system?",
+    "options": [
+      "To distribute incoming traffic across multiple servers",
+      "To manage database connections",
+      "To encrypt API responses",
+      "To handle client-side rendering"
+    ],
+    "answer": "To distribute incoming traffic across multiple servers"
+  },
+  {
+    "question": "Which SQL function is used to count the number of rows in a result set?",
+    "options": [
+      "SUM()",
+      "COUNT()",
+      "AVG()",
+      "MAX()"
+    ],
+    "answer": "COUNT()"
+  },
+  {
+    "question": "What is the purpose of 'OAuth' in backend authentication?",
+    "options": [
+      "To hash passwords",
+      "To allow secure delegated access to resources",
+      "To manage database schemas",
+      "To optimize API endpoints"
+    ],
+    "answer": "To allow secure delegated access to resources"
+  },
+  {
+    "question": "Which of the following is a characteristic of a microservices architecture?",
+    "options": [
+      "Monolithic application structure",
+      "Tightly coupled components",
+      "Independent, loosely coupled services",
+      "Single database for all services"
+    ],
+    "answer": "Independent, loosely coupled services"
+  },
+  {
+    "question": "What is the purpose of the 'async/await' syntax in Node.js?",
+    "options": [
+      "To handle synchronous operations",
+      "To simplify asynchronous code execution",
+      "To manage database connections",
+      "To create API routes"
+    ],
+    "answer": "To simplify asynchronous code execution"
+  },
+  {
+    "question": "Which database index type improves query performance for searches?",
+    "options": [
+      "Primary Index",
+      "B-Tree Index",
+      "Foreign Key Index",
+      "Unique Index"
+    ],
+    "answer": "B-Tree Index"
+  },
+  {
+    "question": "What is the purpose of a 'cron job' in backend systems?",
+    "options": [
+      "To schedule recurring tasks",
+      "To manage real-time API requests",
+      "To handle client-side events",
+      "To optimize database queries"
+    ],
+    "answer": "To schedule recurring tasks"
+  },
+  {
+    "question": "Which HTTP header is used to specify the format of the request body?",
+    "options": [
+      "Content-Type",
+      "Authorization",
+      "Accept",
+      "User-Agent"
+    ],
+    "answer": "Content-Type"
+  },
+  {
+    "question": "What is the purpose of a 'session' in backend development?",
+    "options": [
+      "To store temporary user data across requests",
+      "To manage database backups",
+      "To optimize server performance",
+      "To render HTML templates"
+    ],
+    "answer": "To store temporary user data across requests"
+  },
+  {
+    "question": "Which of the following is a caching strategy in backend systems?",
+    "options": [
+      "Database sharding",
+      "Redis caching",
+      "SQL indexing",
+      "API versioning"
+    ],
+    "answer": "Redis caching"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the purpose of the 'aria-label' attribute in HTML?",
+    "options": [
+      "To define a CSS style",
+      "To provide an accessible name for an element",
+      "To link an external JavaScript file",
+      "To set the background color"
+    ],
+    "answer": "To provide an accessible name for an element"
+  },
+  {
+    "question": "Which CSS property is used to create a grid layout?",
+    "options": [
+      "flexbox",
+      "grid-template",
+      "display: grid;",
+      "layout: grid;"
+    ],
+    "answer": "display: grid;"
+  },
+  {
+    "question": "What does the JavaScript 'async' attribute do when added to a <script> tag?",
+    "options": [
+      "Pauses the DOM parsing until the script is executed",
+      "Executes the script synchronously",
+      "Loads the script in parallel with DOM parsing",
+      "Prevents the script from running"
+    ],
+    "answer": "Loads the script in parallel with DOM parsing"
+  },
+  {
+    "question": "Which method is used to merge two or more arrays in JavaScript?",
+    "options": [
+      "combine()",
+      "merge()",
+      "concat()",
+      "join()"
+    ],
+    "answer": "concat()"
+  },
+  {
+    "question": "How do you prevent the default behavior of an event in JavaScript?",
+    "options": [
+      "event.stopPropagation()",
+      "event.preventDefault()",
+      "event.cancel()",
+      "event.halt()"
+    ],
+    "answer": "event.preventDefault()"
+  },
+  {
+    "question": "Which CSS pseudo-class is used to style an element when a user hovers over it?",
+    "options": [
+      ":active",
+      ":hover",
+      ":focus",
+      ":visited"
+    ],
+    "answer": ":hover"
+  },
+  {
+    "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+    "options": [
+      "Enforces stricter parsing and error handling",
+      "Enables ES6 features",
+      "Disables variable hoisting",
+      "Optimizes code execution"
+    ],
+    "answer": "Enforces stricter parsing and error handling"
+  },
+  {
+    "question": "Which HTML5 element is used to define self-contained content, like a blog post?",
+    "options": [
+      "<section>",
+      "<article>",
+      "<aside>",
+      "<div>"
+    ],
+    "answer": "<article>"
+  },
+  {
+    "question": "What does the CSS 'flex-grow' property do?",
+    "options": [
+      "Sets the initial size of a flex item",
+      "Defines how much a flex item can grow relative to others",
+      "Controls the spacing between flex items",
+      "Aligns flex items along the main axis"
+    ],
+    "answer": "Defines how much a flex item can grow relative to others"
+  },
+  {
+    "question": "Which JavaScript method is used to convert a JSON string into an object?",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "JSON.convert()",
+      "JSON.objectify()"
+    ],
+    "answer": "JSON.parse()"
+  },
+  {
+    "question": "What is the purpose of the CSS 'z-index' property?",
+    "options": [
+      "Controls the vertical stacking order of elements",
+      "Sets the opacity of an element",
+      "Defines the margin size",
+      "Adjusts the font size"
+    ],
+    "answer": "Controls the vertical stacking order of elements"
+  },
+  {
+    "question": "Which JavaScript keyword is used to define a constant variable?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "static"
+    ],
+    "answer": "const"
+  },
+  {
+    "question": "What is the purpose of the HTML <meta charset='UTF-8'> tag?",
+    "options": [
+      "Sets the page's background color",
+      "Defines the character encoding for the document",
+      "Links an external stylesheet",
+      "Specifies the page's title"
+    ],
+    "answer": "Defines the character encoding for the document"
+  },
+  {
+    "question": "Which CSS property is used to create rounded corners on an element?",
+    "options": [
+      "border-radius",
+      "corner-radius",
+      "border-curve",
+      "round-border"
+    ],
+    "answer": "border-radius"
+  },
+  {
+    "question": "What is the JavaScript 'Promise' object used for?",
+    "options": [
+      "To handle synchronous operations",
+      "To manage asynchronous operations",
+      "To define CSS styles",
+      "To create HTML elements"
+    ],
+    "answer": "To manage asynchronous operations"
+  },
+  {
+    "question": "Which HTML attribute is used to make an input field required?",
+    "options": [
+      "mandatory",
+      "required",
+      "validate",
+      "must"
+    ],
+    "answer": "required"
+  },
+  {
+    "question": "What does the CSS 'box-sizing: border-box;' property do?",
+    "options": [
+      "Excludes padding and border from the element's total width",
+      "Includes padding and border in the element's total width",
+      "Sets the element's display to block",
+      "Aligns the element to the center"
+    ],
+    "answer": "Includes padding and border in the element's total width"
+  },
+  {
+    "question": "Which JavaScript method is used to add an element to the end of an array?",
+    "options": [
+      "push()",
+      "append()",
+      "add()",
+      "insert()"
+    ],
+    "answer": "push()"
+  },
+  {
+    "question": "What is the purpose of the HTML <nav> element?",
+    "options": [
+      "To define a navigation menu",
+      "To create a footer",
+      "To add an image gallery",
+      "To style text"
+    ],
+    "answer": "To define a navigation menu"
+  },
+  {
+    "question": "Which CSS property is used to control the visibility of an element without affecting layout?",
+    "options": [
+      "display",
+      "visibility",
+      "opacity",
+      "hidden"
+    ],
+    "answer": "visibility"
+  },
+  {
+    "question": "What does the JavaScript 'addEventListener' method do?",
+    "options": [
+      "Removes an event from an element",
+      "Attaches an event handler to an element",
+      "Triggers an event manually",
+      "Changes the event type"
+    ],
+    "answer": "Attaches an event handler to an element"
+  },
+  {
+    "question": "Which HTML5 API is used for storing data on the client-side?",
+    "options": [
+      "Geolocation API",
+      "Web Storage API",
+      "Canvas API",
+      "Fetch API"
+    ],
+    "answer": "Web Storage API"
+  },
+  {
+    "question": "What is the purpose of the CSS 'media query'?",
+    "options": [
+      "To apply styles based on device characteristics",
+      "To link external media files",
+      "To animate elements",
+      "To define font styles"
+    ],
+    "answer": "To apply styles based on device characteristics"
+  },
+  {
+    "question": "Which JavaScript operator is used for strict equality comparison?",
+    "options": [
+      "==",
+      "===",
+      "=",
+      "!="
+    ],
+    "answer": "==="
+  },
+  {
+    "question": "What is the purpose of the HTML <figure> element?",
+    "options": [
+      "To group related content like images and captions",
+      "To define a form input",
+      "To create a table",
+      "To style a paragraph"
+    ],
+    "answer": "To group related content like images and captions"
+  },
+  {
+    "question": "Which CSS property is used to create a shadow effect around an element?",
+    "options": [
+      "text-shadow",
+      "box-shadow",
+      "shadow-effect",
+      "element-shadow"
+    ],
+    "answer": "box-shadow"
+  },
+  {
+    "question": "What does the JavaScript 'map()' method do when called on an array?",
+    "options": [
+      "Removes elements from the array",
+      "Creates a new array with transformed elements",
+      "Sorts the array",
+      "Joins array elements into a string"
+    ],
+    "answer": "Creates a new array with transformed elements"
+  },
+  {
+    "question": "Which HTML element is used to embed audio content?",
+    "options": [
+      "<video>",
+      "<audio>",
+      "<sound>",
+      "<media>"
+    ],
+    "answer": "<audio>"
+  },
+  {
+    "question": "What is the purpose of the CSS 'transition' property?",
+    "options": [
+      "To animate changes in CSS properties over time",
+      "To set the element's position",
+      "To define the font style",
+      "To control the element's size"
+    ],
+    "answer": "To animate changes in CSS properties over time"
+  },
+  {
+    "question": "Which JavaScript method is used to remove the last element from an array?",
+    "options": [
+      "pop()",
+      "remove()",
+      "delete()",
+      "shift()"
+    ],
+    "answer": "pop()"
+  }
+]

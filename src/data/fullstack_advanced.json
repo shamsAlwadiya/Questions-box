@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the purpose of the 'Server-Side Rendering (SSR)' in a full-stack application?",
+    "options": [
+      "To render UI components on the client side",
+      "To improve SEO and initial page load by rendering HTML on the server",
+      "To manage database migrations",
+      "To optimize client-side JavaScript execution"
+    ],
+    "answer": "To improve SEO and initial page load by rendering HTML on the server"
+  },
+  {
+    "question": "Which design pattern is used to manage state in large-scale React applications?",
+    "options": [
+      "Singleton Pattern",
+      "Redux or Context API",
+      "Factory Pattern",
+      "Observer Pattern"
+    ],
+    "answer": "Redux or Context API"
+  },
+  {
+    "question": "What is the role of a 'GraphQL resolver' in a full-stack application?",
+    "options": [
+      "To handle HTTP requests",
+      "To fetch data for a specific GraphQL field",
+      "To manage CSS styles",
+      "To optimize database indexes"
+    ],
+    "answer": "To fetch data for a specific GraphQL field"
+  },
+  {
+    "question": "Which CSS-in-JS library is commonly used for styling React components?",
+    "options": [
+      "Sass",
+      "Styled-Components",
+      "Less",
+      "PostCSS"
+    ],
+    "answer": "Styled-Components"
+  },
+  {
+    "question": "What is the purpose of the 'Event Loop' in Node.js within a full-stack context?",
+    "options": [
+      "To manage database transactions",
+      "To handle asynchronous operations in a single-threaded environment",
+      "To render HTML templates",
+      "To optimize front-end animations"
+    ],
+    "answer": "To handle asynchronous operations in a single-threaded environment"
+  },
+  {
+    "question": "Which HTTP status code should be returned for a GraphQL query with partial errors?",
+    "options": [
+      "400",
+      "500",
+      "200",
+      "404"
+    ],
+    "answer": "200"
+  },
+  {
+    "question": "What is the benefit of using 'Next.js' in a full-stack application?",
+    "options": [
+      "It provides automatic server-side rendering and static site generation",
+      "It optimizes database queries",
+      "It manages client-side routing only",
+      "It handles file compression"
+    ],
+    "answer": "It provides automatic server-side rendering and static site generation"
+  },
+  {
+    "question": "Which database technique is used to optimize read-heavy workloads in a full-stack application?",
+    "options": [
+      "Sharding",
+      "Read Replicas",
+      "Partitioning",
+      "Denormalization"
+    ],
+    "answer": "Read Replicas"
+  },
+  {
+    "question": "What is the purpose of the 'useSWR' hook in React for full-stack development?",
+    "options": [
+      "To manage state in Redux",
+      "To handle data fetching with caching and revalidation",
+      "To optimize CSS rendering",
+      "To manage database connections"
+    ],
+    "answer": "To handle data fetching with caching and revalidation"
+  },
+  {
+    "question": "Which security header prevents clickjacking attacks in a full-stack application?",
+    "options": [
+      "Content-Security-Policy",
+      "X-Frame-Options",
+      "Strict-Transport-Security",
+      "X-XSS-Protection"
+    ],
+    "answer": "X-Frame-Options"
+  },
+  {
+    "question": "What is the purpose of the 'Prisma' ORM in a full-stack TypeScript application?",
+    "options": [
+      "To manage CSS styles",
+      "To provide type-safe database access and schema migrations",
+      "To handle client-side routing",
+      "To optimize API endpoints"
+    ],
+    "answer": "To provide type-safe database access and schema migrations"
+  },
+  {
+    "question": "Which Web API is used for lazy loading images in a full-stack application?",
+    "options": [
+      "IntersectionObserver",
+      "Fetch API",
+      "WebSocket API",
+      "Geolocation API"
+    ],
+    "answer": "IntersectionObserver"
+  },
+  {
+    "question": "What is the purpose of a 'service worker' in a progressive web app (PWA)?",
+    "options": [
+      "To manage database transactions",
+      "To enable offline functionality and caching",
+      "To optimize server-side rendering",
+      "To handle API versioning"
+    ],
+    "answer": "To enable offline functionality and caching"
+  },
+  {
+    "question": "Which Node.js framework is optimized for building GraphQL APIs in a full-stack application?",
+    "options": [
+      "Express",
+      "NestJS",
+      "Koa",
+      "Fastify"
+    ],
+    "answer": "NestJS"
+  },
+  {
+    "question": "What is the role of 'Webpack' in a full-stack JavaScript application?",
+    "options": [
+      "To manage database schemas",
+      "To bundle and optimize JavaScript and assets",
+      "To handle API authentication",
+      "To optimize server performance"
+    ],
+    "answer": "To bundle and optimize JavaScript and assets"
+  },
+  {
+    "question": "Which testing framework is commonly used for end-to-end testing in full-stack applications?",
+    "options": [
+      "Jest",
+      "Mocha",
+      "Cypress",
+      "Chai"
+    ],
+    "answer": "Cypress"
+  },
+  {
+    "question": "What is the purpose of the 'container orchestration' tool Kubernetes in a full-stack deployment?",
+    "options": [
+      "To manage front-end state",
+      "To automate deployment, scaling, and management of containerized applications",
+      "To optimize database queries",
+      "To handle client-side routing"
+    ],
+    "answer": "To automate deployment, scaling, and management of containerized applications"
+  },
+  {
+    "question": "Which CSS property enables hardware-accelerated animations in a full-stack application?",
+    "options": [
+      "transform",
+      "position",
+      "display",
+      "margin"
+    ],
+    "answer": "transform"
+  },
+  {
+    "question": "What is the purpose of the 'Apollo Client' in a full-stack GraphQL application?",
+    "options": [
+      "To manage server-side authentication",
+      "To handle client-side GraphQL queries and caching",
+      "To optimize database indexing",
+      "To render server-side templates"
+    ],
+    "answer": "To handle client-side GraphQL queries and caching"
+  },
+  {
+    "question": "Which authentication strategy is best for securing a full-stack API with third-party access?",
+    "options": [
+      "Basic Authentication",
+      "JSON Web Tokens",
+      "OAuth 2.0",
+      "Session Cookies"
+    ],
+    "answer": "OAuth 2.0"
+  },
+  {
+    "question": "What is the purpose of the 'React Query' library in a full-stack application?",
+    "options": [
+      "To manage CSS styles",
+      "To handle server-state management and data fetching",
+      "To optimize database migrations",
+      "To manage WebSocket connections"
+    ],
+    "answer": "To handle server-state management and data fetching"
+  },
+  {
+    "question": "Which database pattern is used to improve performance by storing precomputed results?",
+    "options": [
+      "Materialized Views",
+      "Sharding",
+      "Replication",
+      "Normalization"
+    ],
+    "answer": "Materialized Views"
+  },
+  {
+    "question": "What is the purpose of the 'Vite' build tool in modern full-stack development?",
+    "options": [
+      "To manage database schemas",
+      "To provide fast development and optimized production builds",
+      "To handle API authentication",
+      "To optimize server-side rendering"
+    ],
+    "answer": "To provide fast development and optimized production builds"
+  },
+  {
+    "question": "Which HTTP method is used for partial updates in a RESTful full-stack API?",
+    "options": [
+      "PUT",
+      "POST",
+      "PATCH",
+      "GET"
+    ],
+    "answer": "PATCH"
+  },
+  {
+    "question": "What is the purpose of the 'TypeScript' compiler in a full-stack JavaScript application?",
+    "options": [
+      "To optimize CSS rendering",
+      "To add static types for improved code reliability",
+      "To manage database connections",
+      "To handle client-side animations"
+    ],
+    "answer": "To add static types for improved code reliability"
+  },
+  {
+    "question": "Which monitoring tool is commonly used for tracking performance in full-stack applications?",
+    "options": [
+      "Prometheus",
+      "Jest",
+      "Webpack",
+      "Mocha"
+    ],
+    "answer": "Prometheus"
+  },
+  {
+    "question": "What is the purpose of the 'Content-Security-Policy' HTTP header in a full-stack application?",
+    "options": [
+      "To restrict the sources of content to prevent XSS attacks",
+      "To manage API rate limiting",
+      "To optimize database queries",
+      "To handle file uploads"
+    ],
+    "answer": "To restrict the sources of content to prevent XSS attacks"
+  },
+  {
+    "question": "Which React hook is used to optimize performance by memoizing components?",
+    "options": [
+      "useState",
+      "useEffect",
+      "React.memo",
+      "useCallback"
+    ],
+    "answer": "React.memo"
+  },
+  {
+    "question": "What is the purpose of a 'canary deployment' in a full-stack application?",
+    "options": [
+      "To manage database backups",
+      "To gradually roll out new features to a subset of users",
+      "To optimize front-end rendering",
+      "To handle API versioning"
+    ],
+    "answer": "To gradually roll out new features to a subset of users"
+  },
+  {
+    "question": "Which NoSQL database is optimized for graph-based relationships in a full-stack application?",
+    "options": [
+      "MongoDB",
+      "Neo4j",
+      "Cassandra",
+      "Redis"
+    ],
+    "answer": "Neo4j"
+  }
+]

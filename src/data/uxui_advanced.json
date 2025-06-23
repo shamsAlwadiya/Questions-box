@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the primary goal of conducting a heuristic evaluation in UX design?",
+    "options": [
+      "To create high-fidelity prototypes",
+      "To identify usability issues based on established principles",
+      "To perform A/B testing on live applications",
+      "To optimize backend performance"
+    ],
+    "answer": "To identify usability issues based on established principles"
+  },
+  {
+    "question": "Which UX principle emphasizes minimizing cognitive load for users?",
+    "options": [
+      "Hick’s Law",
+      "Fitts’ Law",
+      "Gestalt Principles",
+      "Miller’s Law"
+    ],
+    "answer": "Miller’s Law"
+  },
+  {
+    "question": "What is the purpose of using microinteractions in UI design?",
+    "options": [
+      "To manage database queries",
+      "To provide subtle feedback and enhance user engagement",
+      "To optimize server-side rendering",
+      "To handle API authentication"
+    ],
+    "answer": "To provide subtle feedback and enhance user engagement"
+  },
+  {
+    "question": "Which accessibility standard ensures that web content is perceivable, operable, understandable, and robust?",
+    "options": [
+      "Section 508",
+      "WCAG 2.1",
+      "ARIA",
+      "ISO 9241"
+    ],
+    "answer": "WCAG 2.1"
+  },
+  {
+    "question": "What is the role of a 'card sorting' exercise in UX research?",
+    "options": [
+      "To create visual designs",
+      "To organize content based on user mental models",
+      "To optimize front-end performance",
+      "To manage backend APIs"
+    ],
+    "answer": "To organize content based on user mental models"
+  },
+  {
+    "question": "Which UI design pattern is best suited for progressive disclosure of complex information?",
+    "options": [
+      "Modal Dialog",
+      "Accordion",
+      "Carousel",
+      "Breadcrumb"
+    ],
+    "answer": "Accordion"
+  },
+  {
+    "question": "What is the purpose of conducting a 'contextual inquiry' in UX research?",
+    "options": [
+      "To observe users in their natural environment to understand their behavior",
+      "To create high-fidelity wireframes",
+      "To optimize database queries",
+      "To perform backend testing"
+    ],
+    "answer": "To observe users in their natural environment to understand their behavior"
+  },
+  {
+    "question": "Which color theory principle helps ensure sufficient contrast for accessibility?",
+    "options": [
+      "Complementary Colors",
+      "Color Harmony",
+      "Contrast Ratio",
+      "Analogous Colors"
+    ],
+    "answer": "Contrast Ratio"
+  },
+  {
+    "question": "What is the benefit of using 'atomic design' in UI development?",
+    "options": [
+      "To manage server-side logic",
+      "To create scalable and reusable component systems",
+      "To optimize API endpoints",
+      "To handle database migrations"
+    ],
+    "answer": "To create scalable and reusable component systems"
+  },
+  {
+    "question": "Which UX metric measures the percentage of users who achieve their goal on a website?",
+    "options": [
+      "Bounce Rate",
+      "Task Success Rate",
+      "Time on Task",
+      "Net Promoter Score"
+    ],
+    "answer": "Task Success Rate"
+  },
+  {
+    "question": "What is the purpose of a 'design system' in UX/UI development?",
+    "options": [
+      "To manage backend APIs",
+      "To ensure consistency and efficiency across interfaces",
+      "To optimize server performance",
+      "To handle user authentication"
+    ],
+    "answer": "To ensure consistency and efficiency across interfaces"
+  },
+  {
+    "question": "Which Gestalt principle explains why users perceive grouped elements as related?",
+    "options": [
+      "Proximity",
+      "Similarity",
+      "Closure",
+      "Continuity"
+    ],
+    "answer": "Proximity"
+  },
+  {
+    "question": "What is the role of 'eye-tracking studies' in UX research?",
+    "options": [
+      "To optimize database queries",
+      "To analyze where users focus their attention on an interface",
+      "To manage server-side rendering",
+      "To create backend APIs"
+    ],
+    "answer": "To analyze where users focus their attention on an interface"
+  },
+  {
+    "question": "Which UI animation technique improves perceived performance during loading states?",
+    "options": [
+      "Skeleton Screens",
+      "Fade Transitions",
+      "Bounce Effects",
+      "Parallax Scrolling"
+    ],
+    "answer": "Skeleton Screens"
+  },
+  {
+    "question": "What is the purpose of 'A/B testing' in UX design?",
+    "options": [
+      "To compare two design variations to determine which performs better",
+      "To manage database schemas",
+      "To optimize backend performance",
+      "To handle API authentication"
+    ],
+    "answer": "To compare two design variations to determine which performs better"
+  },
+  {
+    "question": "Which accessibility feature allows screen readers to navigate content effectively?",
+    "options": [
+      "ARIA Landmarks",
+      "High-Contrast Mode",
+      "Alt Text",
+      "Keyboard Shortcuts"
+    ],
+    "answer": "ARIA Landmarks"
+  },
+  {
+    "question": "What is the benefit of using 'user personas' in UX design?",
+    "options": [
+      "To optimize server-side logic",
+      "To represent target users and guide design decisions",
+      "To manage API endpoints",
+      "To handle database migrations"
+    ],
+    "answer": "To represent target users and guide design decisions"
+  },
+  {
+    "question": "Which UX research method involves observing users without direct interaction?",
+    "options": [
+      "Usability Testing",
+      "Ethnographic Research",
+      "Surveys",
+      "Focus Groups"
+    ],
+    "answer": "Ethnographic Research"
+  },
+  {
+    "question": "What is the purpose of 'motion design' in UI development?",
+    "options": [
+      "To manage backend APIs",
+      "To guide user attention and enhance interaction flow",
+      "To optimize database queries",
+      "To handle server-side rendering"
+    ],
+    "answer": "To guide user attention and enhance interaction flow"
+  },
+  {
+    "question": "Which typography principle ensures readability across different screen sizes?",
+    "options": [
+      "Kerning",
+      "Responsive Typography",
+      "Leading",
+      "Tracking"
+    ],
+    "answer": "Responsive Typography"
+  },
+  {
+    "question": "What is the role of a 'journey map' in UX design?",
+    "options": [
+      "To visualize the user’s experience across touchpoints",
+      "To manage server performance",
+      "To create backend APIs",
+      "To optimize database queries"
+    ],
+    "answer": "To visualize the user’s experience across touchpoints"
+  },
+  {
+    "question": "Which UI pattern is used to guide users through a multi-step process?",
+    "options": [
+      "Wizard",
+      "Tooltip",
+      "Dropdown",
+      "Tabs"
+    ],
+    "answer": "Wizard"
+  },
+  {
+    "question": "What is the purpose of 'inclusive design' in UX/UI development?",
+    "options": [
+      "To optimize API performance",
+      "To create interfaces accessible to diverse users",
+      "To manage database schemas",
+      "To handle backend authentication"
+    ],
+    "answer": "To create interfaces accessible to diverse users"
+  },
+  {
+    "question": "Which UX metric evaluates user satisfaction with an interface?",
+    "options": [
+      "System Usability Scale (SUS)",
+      "Conversion Rate",
+      "Page Load Time",
+      "Error Rate"
+    ],
+    "answer": "System Usability Scale (SUS)"
+  },
+  {
+    "question": "What is the benefit of using 'Figma' in UX/UI design workflows?",
+    "options": [
+      "To manage server-side logic",
+      "To enable collaborative prototyping and design",
+      "To optimize database queries",
+      "To handle API versioning"
+    ],
+    "answer": "To enable collaborative prototyping and design"
+  },
+  {
+    "question": "Which accessibility guideline ensures keyboard-only navigation for UI elements?",
+    "options": [
+      "Focus Indicators",
+      "Alt Text",
+      "Color Contrast",
+      "Semantic HTML"
+    ],
+    "answer": "Focus Indicators"
+  },
+  {
+    "question": "What is the purpose of 'information architecture' in UX design?",
+    "options": [
+      "To optimize backend performance",
+      "To structure content for intuitive navigation",
+      "To manage API endpoints",
+      "To create animations"
+    ],
+    "answer": "To structure content for intuitive navigation"
+  },
+  {
+    "question": "Which UI design principle prioritizes the most important content at the top of a page?",
+    "options": [
+      "Visual Hierarchy",
+      "Alignment",
+      "Proximity",
+      "Repetition"
+    ],
+    "answer": "Visual Hierarchy"
+  },
+  {
+    "question": "What is the role of 'usability heuristics' in UX evaluation?",
+    "options": [
+      "To manage database schemas",
+      "To provide guidelines for assessing interface usability",
+      "To optimize server performance",
+      "To handle API authentication"
+    ],
+    "answer": "To provide guidelines for assessing interface usability"
+  },
+  {
+    "question": "Which UX technique involves creating low-fidelity sketches to explore design ideas?",
+    "options": [
+      "Wireframing",
+      "High-Fidelity Prototyping",
+      "A/B Testing",
+      "Card Sorting"
+    ],
+    "answer": "Wireframing"
+  }
+]

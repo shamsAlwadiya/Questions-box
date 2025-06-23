@@ -1,0 +1,68 @@
+.questions{
+    padding: 10px;
+}
+.questions h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px;
+    font-style: italic;
+}
+.questions-lists{
+    list-style: none;
+    padding: 15px;
+}
+.questions-lists li{
+    margin-top: 15px;
+}
+.question-card{
+    background-color:  #eee;
+    padding: 15px;
+    width: 70%;
+    margin-left: 230px;
+    border-radius: 6px;
+
+}
+.question-num{
+    color: #059669;
+}
+.question-card p{
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+.question-card .options-lists{
+    list-style: none;
+    cursor: pointer;
+    
+}
+.option-label{
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.previous-btn , .next-btn{
+    font-size: 20px;
+    background-color: #ccc;
+    border-radius: 6px;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    padding: 10px ;
+    width: 10%;
+
+
+}
+.disabled{
+    background-color: #ccc;
+    color: #aaa;
+    cursor: no-drop;
+}

@@ -1,0 +1,304 @@
+[
+
+  {
+    "question": "What is the purpose of HTML?",
+    "options": [
+      "Design web pages",
+      "Structure web content",
+      "Add animations",
+      "Secure the website"
+    ],
+    "answer": "Structure web content"
+  },
+  {
+    "question": "Which tag is used to add an image in HTML?",
+    "options": [
+      "<image>",
+      "<img>",
+      "<pic>",
+      "<src>"
+    ],
+    "answer": "<img>"
+  },
+  {
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": [
+      "<a>",
+      "<link>",
+      "<href>",
+      "<button>"
+    ],
+    "answer": "<a>"
+  },
+  {
+    "question": "Which CSS property changes the background color?",
+    "options": [
+      "color",
+      "background-color",
+      "bgcolor",
+      "background"
+    ],
+    "answer": "background-color"
+  },
+  {
+    "question": "Which tag is used to define a table in HTML?",
+    "options": [
+      "<table>",
+      "<tab>",
+      "<td>",
+      "<tr>"
+    ],
+    "answer": "<table>"
+  },
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Colorful Style Sheets",
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Creative Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which tag is used to define a paragraph in HTML?",
+    "options": [
+      "<p>",
+      "<para>",
+      "<text>",
+      "<paragraph>"
+    ],
+    "answer": "<p>"
+  },
+  {
+    "question": "How do you insert a line break in HTML?",
+    "options": [
+      "<br>",
+      "<lb>",
+      "<break>",
+      "<line>"
+    ],
+    "answer": "<br>"
+  },
+  {
+    "question": "Which attribute is used in HTML to provide an alternative text for an image?",
+    "options": [
+      "title",
+      "alt",
+      "src",
+      "text"
+    ],
+    "answer": "alt"
+  },
+  {
+    "question": "Which symbol is used for comments in CSS?",
+    "options": [
+      "// comment",
+      "<!-- comment -->",
+      "/* comment */",
+      "# comment"
+    ],
+    "answer": "/* comment */"
+  },
+  {
+    "question": "What is the correct HTML element for the largest heading?",
+    "options": [
+      "<heading>",
+      "<h6>",
+      "<head>",
+      "<h1>"
+    ],
+    "answer": "<h1>"
+  },
+  {
+    "question": "Which property is used to change the text color in CSS?",
+    "options": [
+      "color",
+      "text-color",
+      "font-color",
+      "background-color"
+    ],
+    "answer": "color"
+  },
+  {
+    "question": "How can you make text bold in HTML?",
+    "options": [
+      "<bold>",
+      "<b>",
+      "<strong>",
+      "<text-bold>"
+    ],
+    "answer": "<b>"
+  },
+  {
+    "question": "Which HTML tag is used to create an unordered list?",
+    "options": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<list>"
+    ],
+    "answer": "<ul>"
+  },
+  {
+    "question": "Which tag is used to insert a JavaScript file?",
+    "options": [
+      "<js>",
+      "<javascript>",
+      "<script>",
+      "<link>"
+    ],
+    "answer": "<script>"
+  },
+  {
+    "question": "How do you write a comment in JavaScript?",
+    "options": [
+      "<!-- comment -->",
+      "// comment",
+      "/* comment */",
+      "# comment"
+    ],
+    "answer": "// comment"
+  },
+  {
+    "question": "What does DOM stand for?",
+    "options": [
+      "Document Object Model",
+      "Data Object Management",
+      "Digital Object Model",
+      "Document Order Model"
+    ],
+    "answer": "Document Object Model"
+  },
+  {
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "options": [
+      "onmouseclick",
+      "onmouseover",
+      "onchange",
+      "onclick"
+    ],
+    "answer": "onclick"
+  },
+  {
+    "question": "How do you declare a JavaScript variable?",
+    "options": [
+      "var myVar;",
+      "v myVar;",
+      "dim myVar;",
+      "myVar = var;"
+    ],
+    "answer": "var myVar;"
+  },
+  {
+    "question": "Which company developed JavaScript?",
+    "options": [
+      "Microsoft",
+      "Mozilla",
+      "Netscape",
+      "Google"
+    ],
+    "answer": "Netscape"
+  },
+  {
+    "question": "What does the <div> tag define in HTML?",
+    "options": [
+      "A table row",
+      "A division or section",
+      "A hyperlink",
+      "An image"
+    ],
+    "answer": "A division or section"
+  },
+  {
+    "question": "What is the default value of the position property in CSS?",
+    "options": [
+      "relative",
+      "absolute",
+      "static",
+      "fixed"
+    ],
+    "answer": "static"
+  },
+  {
+    "question": "Which HTML tag is used to define an internal style sheet?",
+    "options": [
+      "<style>",
+      "<css>",
+      "<script>",
+      "<link>"
+    ],
+    "answer": "<style>"
+  },
+  {
+    "question": "How can you make a numbered list in HTML?",
+    "options": [
+      "<ul>",
+      "<list>",
+      "<ol>",
+      "<dl>"
+    ],
+    "answer": "<ol>"
+  },
+  {
+    "question": "Which CSS property is used to control the spacing between letters?",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "line-height",
+      "text-indent"
+    ],
+    "answer": "letter-spacing"
+  },
+  {
+    "question": "Which method is used to output data in JavaScript?",
+    "options": [
+      "print()",
+      "echo()",
+      "log()",
+      "console.log()"
+    ],
+    "answer": "console.log()"
+  },
+  {
+    "question": "Which tag is used to create a dropdown list in HTML?",
+    "options": [
+      "<input type='dropdown'>",
+      "<select>",
+      "<option>",
+      "<dropdown>"
+    ],
+    "answer": "<select>"
+  },
+  {
+    "question": "How do you apply a class in HTML?",
+    "options": [
+      "<div .class='name'>",
+      "<div class='name'>",
+      "<div id='name'>",
+      "<div className='name'>"
+    ],
+    "answer": "<div class='name'>"
+  },
+  {
+    "question": "Which attribute is used to specify the path of an image?",
+    "options": [
+      "alt",
+      "href",
+      "src",
+      "path"
+    ],
+    "answer": "src"
+  },
+  {
+    "question": "How do you center a block element in CSS?",
+    "options": [
+      "text-align: center;",
+      "margin: auto;",
+      "align: center;",
+      "display: center;"
+    ],
+    "answer": "margin: auto;"
+  }
+]
+

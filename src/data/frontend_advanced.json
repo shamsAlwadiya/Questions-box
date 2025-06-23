@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the purpose of the 'IntersectionObserver' API in JavaScript?",
+    "options": [
+      "To monitor changes in the DOM tree",
+      "To observe changes in the visibility of an element relative to an ancestor",
+      "To handle HTTP requests asynchronously",
+      "To manage WebSocket connections"
+    ],
+    "answer": "To observe changes in the visibility of an element relative to an ancestor"
+  },
+  {
+    "question": "Which CSS feature allows you to define custom properties for reusable values?",
+    "options": [
+      "CSS Variables (--custom-property)",
+      "CSS Mixins",
+      "CSS Functions",
+      "CSS Preprocessors"
+    ],
+    "answer": "CSS Variables (--custom-property)"
+  },
+  {
+    "question": "What is the significance of the 'useEffect' hook in React?",
+    "options": [
+      "To handle form submissions",
+      "To perform side effects in function components",
+      "To manage state in class components",
+      "To optimize rendering performance"
+    ],
+    "answer": "To perform side effects in function components"
+  },
+  {
+    "question": "How does the 'defer' attribute differ from the 'async' attribute in a <script> tag?",
+    "options": [
+      "defer executes scripts in order after DOM parsing; async executes as soon as loaded",
+      "defer pauses DOM parsing; async loads scripts synchronously",
+      "defer prevents script execution; async delays DOM parsing",
+      "defer and async are identical in functionality"
+    ],
+    "answer": "defer executes scripts in order after DOM parsing; async executes as soon as loaded"
+  },
+  {
+    "question": "Which JavaScript method is used to create a shallow copy of an object?",
+    "options": [
+      "Object.assign()",
+      "Object.clone()",
+      "Object.copy()",
+      "Object.create()"
+    ],
+    "answer": "Object.assign()"
+  },
+  {
+    "question": "What is the purpose of the CSS 'clip-path' property?",
+    "options": [
+      "To clip an element to a specific shape or path",
+      "To define the element's border radius",
+      "To control the element's visibility",
+      "To create a shadow effect"
+    ],
+    "answer": "To clip an element to a specific shape or path"
+  },
+  {
+    "question": "What is the role of the 'key' prop in React when rendering lists?",
+    "options": [
+      "To style list items",
+      "To uniquely identify elements for efficient rendering",
+      "To handle click events",
+      "To define the list's order"
+    ],
+    "answer": "To uniquely identify elements for efficient rendering"
+  },
+  {
+    "question": "Which HTML5 API allows for real-time, bidirectional communication between client and server?",
+    "options": [
+      "Web Storage API",
+      "WebSocket API",
+      "Fetch API",
+      "Canvas API"
+    ],
+    "answer": "WebSocket API"
+  },
+  {
+    "question": "What does the CSS 'will-change' property do?",
+    "options": [
+      "Specifies which properties are expected to change to optimize animations",
+      "Changes the element's position",
+      "Defines the transition duration",
+      "Controls the element's opacity"
+    ],
+    "answer": "Specifies which properties are expected to change to optimize animations"
+  },
+  {
+    "question": "How does the JavaScript 'async/await' syntax improve asynchronous code?",
+    "options": [
+      "It eliminates the need for promises",
+      "It makes asynchronous code look synchronous and easier to read",
+      "It automatically handles errors without try/catch",
+      "It speeds up execution of asynchronous tasks"
+    ],
+    "answer": "It makes asynchronous code look synchronous and easier to read"
+  },
+  {
+    "question": "What is the purpose of the 'srcset' attribute in the <img> tag?",
+    "options": [
+      "To specify multiple image sources for responsive designs",
+      "To define the image's alternative text",
+      "To set the image's dimensions",
+      "To link external stylesheets"
+    ],
+    "answer": "To specify multiple image sources for responsive designs"
+  },
+  {
+    "question": "Which React hook is used to memoize expensive calculations?",
+    "options": [
+      "useState",
+      "useMemo",
+      "useEffect",
+      "useCallback"
+    ],
+    "answer": "useMemo"
+  },
+  {
+    "question": "What is the CSS 'object-fit' property used for?",
+    "options": [
+      "To control how an image or video fits within its container",
+      "To define the object’s position",
+      "To set the element’s opacity",
+      "To adjust the element’s border"
+    ],
+    "answer": "To control how an image or video fits within its container"
+  },
+  {
+    "question": "What does the JavaScript 'Proxy' object allow you to do?",
+    "options": [
+      "Create a copy of an object",
+      "Define custom behavior for fundamental operations on an object",
+      "Optimize memory usage",
+      "Parse JSON data"
+    ],
+    "answer": "Define custom behavior for fundamental operations on an object"
+  },
+  {
+    "question": "Which HTML attribute enhances form accessibility by associating a label with a form control?",
+    "options": [
+      "for",
+      "id",
+      "name",
+      "label"
+    ],
+    "answer": "for"
+  },
+  {
+    "question": "What is the purpose of the 'React.Fragment' component in React?",
+    "options": [
+      "To group multiple elements without adding extra DOM nodes",
+      "To handle state management",
+      "To optimize component rendering",
+      "To create reusable templates"
+    ],
+    "answer": "To group multiple elements without adding extra DOM nodes"
+  },
+  {
+    "question": "Which CSS property is used to create a sticky positioning effect?",
+    "options": [
+      "position: fixed;",
+      "position: sticky;",
+      "position: absolute;",
+      "position: relative;"
+    ],
+    "answer": "position: sticky;"
+  },
+  {
+    "question": "What does the JavaScript 'fetch' API return?",
+    "options": [
+      "A Promise that resolves to a Response object",
+      "A JSON object",
+      "An HTML element",
+      "A synchronous response"
+    ],
+    "answer": "A Promise that resolves to a Response object"
+  },
+  {
+    "question": "What is the purpose of the 'rel' attribute in the <a> tag?",
+    "options": [
+      "To specify the relationship between the current document and the linked resource",
+      "To define the link’s target",
+      "To set the link’s visibility",
+      "To style the link"
+    ],
+    "answer": "To specify the relationship between the current document and the linked resource"
+  },
+  {
+    "question": "Which JavaScript method is used to handle errors in a Promise chain?",
+    "options": [
+      "then()",
+      "catch()",
+      "finally()",
+      "error()"
+    ],
+    "answer": "catch()"
+  },
+  {
+    "question": "What is the purpose of the CSS 'calc()' function?",
+    "options": [
+      "To perform mathematical calculations for property values",
+      "To define animation timing",
+      "To set font sizes",
+      "To align elements"
+    ],
+    "answer": "To perform mathematical calculations for property values"
+  },
+  {
+    "question": "Which React hook is used to persist function references between renders?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useCallback",
+      "useRef"
+    ],
+    "answer": "useCallback"
+  },
+  {
+    "question": "What is the purpose of the HTML <picture> element?",
+    "options": [
+      "To define multiple image sources for different display scenarios",
+      "To embed video content",
+      "To create a gallery of images",
+      "To style images"
+    ],
+    "answer": "To define multiple image sources for different display scenarios"
+  },
+  {
+    "question": "Which CSS property controls the stacking context of an element?",
+    "options": [
+      "z-index",
+      "stack-order",
+      "layer",
+      "position"
+    ],
+    "answer": "z-index"
+  },
+  {
+    "question": "What does the JavaScript 'Array.prototype.reduce()' method do?",
+    "options": [
+      "Filters elements from an array",
+      "Reduces an array to a single value by applying a function",
+      "Maps elements to a new array",
+      "Sorts the array"
+    ],
+    "answer": "Reduces an array to a single value by applying a function"
+  },
+  {
+    "question": "What is the purpose of the 'data-' attribute in HTML?",
+    "options": [
+      "To store custom data attributes on elements",
+      "To define CSS styles",
+      "To link external scripts",
+      "To set element visibility"
+    ],
+    "answer": "To store custom data attributes on elements"
+  },
+  {
+    "question": "Which CSS feature allows you to apply styles conditionally based on parent or sibling elements?",
+    "options": [
+      "CSS Combinators",
+      "CSS Variables",
+      "CSS Functions",
+      "CSS Filters"
+    ],
+    "answer": "CSS Combinators"
+  },
+  {
+    "question": "What does the JavaScript 'WeakMap' object do?",
+    "options": [
+      "Stores key-value pairs where keys are objects and values are weakly referenced",
+      "Creates a deep copy of an object",
+      "Maps values to strings",
+      "Handles asynchronous operations"
+    ],
+    "answer": "Stores key-value pairs where keys are objects and values are weakly referenced"
+  },
+  {
+    "question": "Which HTML5 element is used to define a section that is tangentially related to its surrounding content?",
+    "options": [
+      "<section>",
+      "<article>",
+      "<aside>",
+      "<footer>"
+    ],
+    "answer": "<aside>"
+  },
+  {
+    "question": "What is the purpose of the CSS 'currentColor' keyword?",
+    "options": [
+      "To reference the value of the element’s color property",
+      "To set the background color",
+      "To define the border color",
+      "To reset all colors"
+    ],
+    "answer": "To reference the value of the element’s color property"
+  }
+]

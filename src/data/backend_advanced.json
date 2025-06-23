@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the primary benefit of using a message queue like RabbitMQ in a backend system?",
+    "options": [
+      "To handle real-time database queries",
+      "To decouple services and manage asynchronous task processing",
+      "To optimize front-end rendering",
+      "To encrypt API responses"
+    ],
+    "answer": "To decouple services and manage asynchronous task processing"
+  },
+  {
+    "question": "Which design pattern is commonly used in microservices to handle cross-service data consistency?",
+    "options": [
+      "Singleton Pattern",
+      "Saga Pattern",
+      "Factory Pattern",
+      "Observer Pattern"
+    ],
+    "answer": "Saga Pattern"
+  },
+  {
+    "question": "What is the purpose of the 'CAP Theorem' in distributed systems?",
+    "options": [
+      "To define the trade-offs between Consistency, Availability, and Partition Tolerance",
+      "To optimize database indexing",
+      "To manage API rate limiting",
+      "To secure authentication tokens"
+    ],
+    "answer": "To define the trade-offs between Consistency, Availability, and Partition Tolerance"
+  },
+  {
+    "question": "Which technique is used to prevent SQL injection attacks in backend applications?",
+    "options": [
+      "Using raw SQL queries",
+      "Implementing prepared statements or parameterized queries",
+      "Encrypting the database schema",
+      "Disabling database connections"
+    ],
+    "answer": "Implementing prepared statements or parameterized queries"
+  },
+  {
+    "question": "What is the role of a 'circuit breaker' in a microservices architecture?",
+    "options": [
+      "To manage database transactions",
+      "To prevent cascading failures by halting requests to a failing service",
+      "To optimize API response times",
+      "To handle user authentication"
+    ],
+    "answer": "To prevent cascading failures by halting requests to a failing service"
+  },
+  {
+    "question": "Which protocol is commonly used for real-time communication in backend systems?",
+    "options": [
+      "HTTP/1.1",
+      "WebSocket",
+      "FTP",
+      "SMTP"
+    ],
+    "answer": "WebSocket"
+  },
+  {
+    "question": "What is the purpose of database sharding?",
+    "options": [
+      "To encrypt database records",
+      "To distribute data across multiple servers for scalability",
+      "To create database backups",
+      "To optimize single-table queries"
+    ],
+    "answer": "To distribute data across multiple servers for scalability"
+  },
+  {
+    "question": "Which authentication strategy uses a token that is cryptographically signed and self-contained?",
+    "options": [
+      "OAuth 2.0",
+      "JSON Web Token (JWT)",
+      "Basic Authentication",
+      "API Key"
+    ],
+    "answer": "JSON Web Token (JWT)"
+  },
+  {
+    "question": "What is the purpose of the 'Event Sourcing' pattern in backend systems?",
+    "options": [
+      "To store the state of an application as a sequence of events",
+      "To manage database indexes",
+      "To optimize API endpoints",
+      "To handle file uploads"
+    ],
+    "answer": "To store the state of an application as a sequence of events"
+  },
+  {
+    "question": "Which HTTP header is used to prevent cross-site request forgery (CSRF) attacks?",
+    "options": [
+      "Content-Type",
+      "X-CSRF-Token",
+      "Authorization",
+      "Accept"
+    ],
+    "answer": "X-CSRF-Token"
+  },
+  {
+    "question": "What is the purpose of GraphQL in backend development?",
+    "options": [
+      "To replace SQL databases",
+      "To allow clients to request specific data structures",
+      "To manage server-side rendering",
+      "To optimize file storage"
+    ],
+    "answer": "To allow clients to request specific data structures"
+  },
+  {
+    "question": "Which database consistency model ensures that all reads reflect the most recent write?",
+    "options": [
+      "Eventual Consistency",
+      "Strong Consistency",
+      "Causal Consistency",
+      "Session Consistency"
+    ],
+    "answer": "Strong Consistency"
+  },
+  {
+    "question": "What is the purpose of a 'reverse proxy' in a backend architecture?",
+    "options": [
+      "To handle database queries",
+      "To route client requests to appropriate backend services",
+      "To manage client-side sessions",
+      "To optimize front-end performance"
+    ],
+    "answer": "To route client requests to appropriate backend services"
+  },
+  {
+    "question": "Which technique is used to scale a database by separating read and write operations?",
+    "options": [
+      "Sharding",
+      "Replication",
+      "Partitioning",
+      "Indexing"
+    ],
+    "answer": "Replication"
+  },
+  {
+    "question": "What is the purpose of the 'CQRS' pattern in backend systems?",
+    "options": [
+      "To separate command and query responsibilities for better scalability",
+      "To manage database backups",
+      "To handle real-time notifications",
+      "To optimize API versioning"
+    ],
+    "answer": "To separate command and query responsibilities for better scalability"
+  },
+  {
+    "question": "Which Node.js module is commonly used for handling WebSocket connections?",
+    "options": [
+      "http",
+      "ws",
+      "fs",
+      "path"
+    ],
+    "answer": "ws"
+  },
+  {
+    "question": "What is the purpose of 'rate limiting' in API design?",
+    "options": [
+      "To prevent abuse by restricting the number of requests",
+      "To optimize database queries",
+      "To manage session storage",
+      "To handle file uploads"
+    ],
+    "answer": "To prevent abuse by restricting the number of requests"
+  },
+  {
+    "question": "Which SQL clause is used to combine rows from two or more tables based on a related column?",
+    "options": [
+      "UNION",
+      "JOIN",
+      "GROUP BY",
+      "HAVING"
+    ],
+    "answer": "JOIN"
+  },
+  {
+    "question": "What is the purpose of a 'service mesh' in a microservices architecture?",
+    "options": [
+      "To manage communication between services",
+      "To handle database migrations",
+      "To optimize front-end rendering",
+      "To secure client-side scripts"
+    ],
+    "answer": "To manage communication between services"
+  },
+  {
+    "question": "Which OAuth 2.0 flow is best suited for single-page applications?",
+    "options": [
+      "Authorization Code Flow",
+      "Implicit Flow",
+      "Client Credentials Flow",
+      "Password Grant Flow"
+    ],
+    "answer": "Implicit Flow"
+  },
+  {
+    "question": "What is the purpose of the 'ETag' HTTP header in backend systems?",
+    "options": [
+      "To manage user sessions",
+      "To cache responses and validate resource changes",
+      "To encrypt API payloads",
+      "To handle file uploads"
+    ],
+    "answer": "To cache responses and validate resource changes"
+  },
+  {
+    "question": "Which database feature ensures that transactions are processed reliably even in the event of a failure?",
+    "options": [
+      "Indexing",
+      "Replication",
+      "Write-Ahead Logging",
+      "Sharding"
+    ],
+    "answer": "Write-Ahead Logging"
+  },
+  {
+    "question": "What is the purpose of a 'distributed tracing' system in backend monitoring?",
+    "options": [
+      "To track requests across multiple services for debugging",
+      "To optimize database queries",
+      "To manage API versioning",
+      "To handle user authentication"
+    ],
+    "answer": "To track requests across multiple services for debugging"
+  },
+  {
+    "question": "Which Python library is commonly used for asynchronous task queues?",
+    "options": [
+      "Flask",
+      "Celery",
+      "Django ORM",
+      "Requests"
+    ],
+    "answer": "Celery"
+  },
+  {
+    "question": "What is the purpose of the 'HATEOAS' principle in RESTful APIs?",
+    "options": [
+      "To provide hyperlinks to related resources in API responses",
+      "To encrypt API payloads",
+      "To manage database connections",
+      "To optimize query performance"
+    ],
+    "answer": "To provide hyperlinks to related resources in API responses"
+  },
+  {
+    "question": "Which security mechanism protects against cross-site scripting (XSS) attacks in backend systems?",
+    "options": [
+      "Input sanitization and output encoding",
+      "Database encryption",
+      "API rate limiting",
+      "Session expiration"
+    ],
+    "answer": "Input sanitization and output encoding"
+  },
+  {
+    "question": "What is the purpose of a 'blue-green deployment' strategy?",
+    "options": [
+      "To manage database schemas",
+      "To enable zero-downtime deployments by switching between environments",
+      "To optimize API performance",
+      "To handle client-side rendering"
+    ],
+    "answer": "To enable zero-downtime deployments by switching between environments"
+  },
+  {
+    "question": "Which HTTP status code is used to indicate a resource has been permanently moved?",
+    "options": [
+      "301",
+      "302",
+      "404",
+      "500"
+    ],
+    "answer": "301"
+  },
+  {
+    "question": "What is the purpose of a 'bloom filter' in backend systems?",
+    "options": [
+      "To optimize database indexing",
+      "To quickly check if an element is likely in a set",
+      "To manage API versioning",
+      "To handle file compression"
+    ],
+    "answer": "To quickly check if an element is likely in a set"
+  },
+  {
+    "question": "Which backend framework is known for its use of dependency injection in Java?",
+    "options": [
+      "Spring",
+      "Play",
+      "Struts",
+      "Hibernate"
+    ],
+    "answer": "Spring"
+  }
+]

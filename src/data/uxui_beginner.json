@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What does UX stand for in web design?",
+    "options": [
+      "User Experience",
+      "User Extension",
+      "Unique Experience",
+      "User Execution"
+    ],
+    "answer": "User Experience"
+  },
+  {
+    "question": "What is the main goal of UI design?",
+    "options": [
+      "To manage databases",
+      "To create visually appealing interfaces",
+      "To optimize server performance",
+      "To write backend code"
+    ],
+    "answer": "To create visually appealing interfaces"
+  },
+  {
+    "question": "Which tool is commonly used for creating wireframes in UX design?",
+    "options": [
+      "Photoshop",
+      "Figma",
+      "MySQL",
+      "Node.js"
+    ],
+    "answer": "Figma"
+  },
+  {
+    "question": "What does a 'button' in UI design typically do?",
+    "options": [
+      "Stores data",
+      "Triggers an action",
+      "Styles text",
+      "Manages APIs"
+    ],
+    "answer": "Triggers an action"
+  },
+  {
+    "question": "What is the purpose of a 'navigation menu' in a website?",
+    "options": [
+      "To help users move between pages",
+      "To store user data",
+      "To create animations",
+      "To manage server requests"
+    ],
+    "answer": "To help users move between pages"
+  },
+  {
+    "question": "Which color is often used to indicate a clickable link in UI design?",
+    "options": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow"
+    ],
+    "answer": "Blue"
+  },
+  {
+    "question": "What is the purpose of a 'form' in a UI design?",
+    "options": [
+      "To collect user input",
+      "To display images",
+      "To manage databases",
+      "To create animations"
+    ],
+    "answer": "To collect user input"
+  },
+  {
+    "question": "What does accessibility in UX design mean?",
+    "options": [
+      "Making websites fast",
+      "Ensuring websites are usable by everyone",
+      "Creating complex animations",
+      "Optimizing backend code"
+    ],
+    "answer": "Ensuring websites are usable by everyone"
+  },
+  {
+    "question": "Which HTML attribute helps make images accessible to screen readers?",
+    "options": [
+      "src",
+      "alt",
+      "href",
+      "title"
+    ],
+    "answer": "alt"
+  },
+  {
+    "question": "What is a 'mockup' in UI design?",
+    "options": [
+      "A high-fidelity visual design of a page",
+      "A database schema",
+      "A server configuration",
+      "A programming script"
+    ],
+    "answer": "A high-fidelity visual design of a page"
+  },
+  {
+    "question": "Which CSS property makes text easier to read by adjusting its size?",
+    "options": [
+      "font-size",
+      "color",
+      "text-align",
+      "margin"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "question": "What is the purpose of a 'user interface' in a website?",
+    "options": [
+      "To allow users to interact with the site",
+      "To manage server routes",
+      "To store data",
+      "To optimize APIs"
+    ],
+    "answer": "To allow users to interact with the site"
+  },
+  {
+    "question": "Which design principle focuses on making interfaces easy to understand?",
+    "options": [
+      "Complexity",
+      "Simplicity",
+      "Randomness",
+      "Opacity"
+    ],
+    "answer": "Simplicity"
+  },
+  {
+    "question": "What is the purpose of a 'call-to-action' (CTA) button in UI design?",
+    "options": [
+      "To encourage users to take a specific action",
+      "To store user data",
+      "To create animations",
+      "To manage databases"
+    ],
+    "answer": "To encourage users to take a specific action"
+  },
+  {
+    "question": "Which HTML tag is used to create a clickable button?",
+    "options": [
+      "<button>",
+      "<div>",
+      "<p>",
+      "<img>"
+    ],
+    "answer": "<button>"
+  },
+  {
+    "question": "What is the purpose of 'contrast' in UI design?",
+    "options": [
+      "To make elements stand out for better readability",
+      "To manage server performance",
+      "To create complex animations",
+      "To handle API requests"
+    ],
+    "answer": "To make elements stand out for better readability"
+  },
+  {
+    "question": "Which CSS property is used to center text horizontally?",
+    "options": [
+      "text-align",
+      "margin",
+      "padding",
+      "font-size"
+    ],
+    "answer": "text-align"
+  },
+  {
+    "question": "What is a 'wireframe' in UX design?",
+    "options": [
+      "A basic layout of a page’s structure",
+      "A final design with colors",
+      "A database schema",
+      "A server script"
+    ],
+    "answer": "A basic layout of a page’s structure"
+  },
+  {
+    "question": "Which design element helps users know where they are on a website?",
+    "options": [
+      "Footer",
+      "Breadcrumb",
+      "Image",
+      "Form"
+    ],
+    "answer": "Breadcrumb"
+  },
+  {
+    "question": "What is the purpose of a 'dropdown menu' in UI design?",
+    "options": [
+      "To display a list of options for selection",
+      "To store user data",
+      "To manage server routes",
+      "To create animations"
+    ],
+    "answer": "To display a list of options for selection"
+  },
+  {
+    "question": "Which HTML tag is used to create a form input field?",
+    "options": [
+      "<input>",
+      "<form>",
+      "<button>",
+      "<label>"
+    ],
+    "answer": "<input>"
+  },
+  {
+    "question": "What is the purpose of 'user feedback' in UX design?",
+    "options": [
+      "To improve the design based on user input",
+      "To optimize server performance",
+      "To manage databases",
+      "To create backend APIs"
+    ],
+    "answer": "To improve the design based on user input"
+  },
+  {
+    "question": "Which CSS property adds space around an element’s content?",
+    "options": [
+      "margin",
+      "padding",
+      "border",
+      "font-size"
+    ],
+    "answer": "padding"
+  },
+  {
+    "question": "What is the purpose of a 'header' in a website’s UI?",
+    "options": [
+      "To provide navigation and branding",
+      "To store user data",
+      "To manage server requests",
+      "To create animations"
+    ],
+    "answer": "To provide navigation and branding"
+  },
+  {
+    "question": "Which design principle ensures consistent use of colors and fonts?",
+    "options": [
+      "Repetition",
+      "Contrast",
+      "Alignment",
+      "Proximity"
+    ],
+    "answer": "Repetition"
+  },
+  {
+    "question": "What is the purpose of a 'tooltip' in UI design?",
+    "options": [
+      "To provide additional information on hover",
+      "To manage database queries",
+      "To optimize server performance",
+      "To create backend APIs"
+    ],
+    "answer": "To provide additional information on hover"
+  },
+  {
+    "question": "Which HTML tag is used to group related form elements?",
+    "options": [
+      "<form>",
+      "<fieldset>",
+      "<input>",
+      "<label>"
+    ],
+    "answer": "<fieldset>"
+  },
+  {
+    "question": "What is the purpose of 'visual hierarchy' in UI design?",
+    "options": [
+      "To prioritize content for user attention",
+      "To manage server routes",
+      "To store data",
+      "To optimize APIs"
+    ],
+    "answer": "To prioritize content for user attention"
+  },
+  {
+    "question": "Which CSS property is used to make text bold?",
+    "options": [
+      "font-weight",
+      "font-size",
+      "text-align",
+      "color"
+    ],
+    "answer": "font-weight"
+  },
+  {
+    "question": "What is the purpose of a 'user persona' in UX design?",
+    "options": [
+      "To represent a typical user for design decisions",
+      "To create animations",
+      "To manage databases",
+      "To optimize server performance"
+    ],
+    "answer": "To represent a typical user for design decisions"
+  }
+]

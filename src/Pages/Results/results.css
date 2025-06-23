@@ -1,0 +1,31 @@
+.results {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #f9f9fb;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.results h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.results button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.results button:hover {
+  background-color: #005e00;
+}

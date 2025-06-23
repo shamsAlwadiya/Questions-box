@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the primary goal of UX design in a web application?",
+    "options": [
+      "To optimize server performance",
+      "To enhance user satisfaction and usability",
+      "To manage database queries",
+      "To create backend APIs"
+    ],
+    "answer": "To enhance user satisfaction and usability"
+  },
+  {
+    "question": "Which UX principle helps predict how long it takes to interact with an interface element?",
+    "options": [
+      "Hick’s Law",
+      "Fitts’ Law",
+      "Gestalt Principles",
+      "Miller’s Law"
+    ],
+    "answer": "Fitts’ Law"
+  },
+  {
+    "question": "What is the purpose of a wireframe in UI design?",
+    "options": [
+      "To create high-fidelity designs",
+      "To outline the layout and structure of an interface",
+      "To manage server-side logic",
+      "To optimize API responses"
+    ],
+    "answer": "To outline the layout and structure of an interface"
+  },
+  {
+    "question": "Which CSS property is used to ensure text is readable for users with visual impairments?",
+    "options": [
+      "font-size",
+      "color-contrast",
+      "text-align",
+      "line-height"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "question": "What is the role of a 'user flow' in UX design?",
+    "options": [
+      "To map out the user’s journey through an application",
+      "To style interface elements",
+      "To manage database connections",
+      "To handle API authentication"
+    ],
+    "answer": "To map out the user’s journey through an application"
+  },
+  {
+    "question": "Which HTML attribute improves accessibility for form inputs?",
+    "options": [
+      "src",
+      "alt",
+      "for",
+      "href"
+    ],
+    "answer": "for"
+  },
+  {
+    "question": "What is the purpose of a 'prototype' in UX/UI design?",
+    "options": [
+      "To test and validate design concepts with users",
+      "To optimize backend performance",
+      "To create database schemas",
+      "To manage server routes"
+    ],
+    "answer": "To test and validate design concepts with users"
+  },
+  {
+    "question": "Which UI design pattern is used to display a list of items with pagination?",
+    "options": [
+      "Tabs",
+      "Carousel",
+      "Data Table",
+      "Modal"
+    ],
+    "answer": "Data Table"
+  },
+  {
+    "question": "What is the purpose of 'usability testing' in UX design?",
+    "options": [
+      "To evaluate how easily users can complete tasks",
+      "To optimize server-side rendering",
+      "To manage API endpoints",
+      "To create animations"
+    ],
+    "answer": "To evaluate how easily users can complete tasks"
+  },
+  {
+    "question": "Which CSS property is used to create a smooth transition effect?",
+    "options": [
+      "transform",
+      "transition",
+      "animation",
+      "opacity"
+    ],
+    "answer": "transition"
+  },
+  {
+    "question": "What is the purpose of a 'persona' in UX design?",
+    "options": [
+      "To represent a typical user to guide design decisions",
+      "To manage database queries",
+      "To optimize front-end performance",
+      "To handle server-side logic"
+    ],
+    "answer": "To represent a typical user to guide design decisions"
+  },
+  {
+    "question": "Which accessibility feature ensures images are described for screen readers?",
+    "options": [
+      "title attribute",
+      "alt attribute",
+      "src attribute",
+      "data attribute"
+    ],
+    "answer": "alt attribute"
+  },
+  {
+    "question": "What is the purpose of the 'responsive design' approach in UI development?",
+    "options": [
+      "To manage backend APIs",
+      "To ensure interfaces adapt to different screen sizes",
+      "To optimize database queries",
+      "To handle user authentication"
+    ],
+    "answer": "To ensure interfaces adapt to different screen sizes"
+  },
+  {
+    "question": "Which UX research method involves direct user feedback through questionnaires?",
+    "options": [
+      "Usability Testing",
+      "Surveys",
+      "Contextual Inquiry",
+      "Card Sorting"
+    ],
+    "answer": "Surveys"
+  },
+  {
+    "question": "What is the role of 'color psychology' in UI design?",
+    "options": [
+      "To influence user emotions and behaviors",
+      "To manage server performance",
+      "To optimize API responses",
+      "To create database schemas"
+    ],
+    "answer": "To influence user emotions and behaviors"
+  },
+  {
+    "question": "Which HTML element improves semantic structure for accessibility?",
+    "options": [
+      "<div>",
+      "<section>",
+      "<span>",
+      "<table>"
+    ],
+    "answer": "<section>"
+  },
+  {
+    "question": "What is the purpose of a 'style guide' in UI design?",
+    "options": [
+      "To ensure consistent visual design across an application",
+      "To manage backend routes",
+      "To optimize database performance",
+      "To handle API authentication"
+    ],
+    "answer": "To ensure consistent visual design across an application"
+  },
+  {
+    "question": "Which CSS property is used to align flex items along the main axis?",
+    "options": [
+      "align-items",
+      "justify-content",
+      "flex-direction",
+      "flex-wrap"
+    ],
+    "answer": "justify-content"
+  },
+  {
+    "question": "What is the purpose of a 'sitemap' in UX design?",
+    "options": [
+      "To visualize the structure of a website’s content",
+      "To manage server-side logic",
+      "To create animations",
+      "To optimize API endpoints"
+    ],
+    "answer": "To visualize the structure of a website’s content"
+  },
+  {
+    "question": "Which UI element provides immediate feedback for user actions?",
+    "options": [
+      "Tooltip",
+      "Breadcrumb",
+      "Button",
+      "Dropdown"
+    ],
+    "answer": "Tooltip"
+  },
+  {
+    "question": "What is the benefit of using a grid system in UI design?",
+    "options": [
+      "To manage database connections",
+      "To create consistent and organized layouts",
+      "To optimize server performance",
+      "To handle API requests"
+    ],
+    "answer": "To create consistent and organized layouts"
+  },
+  {
+    "question": "Which UX principle suggests that users prefer simpler interfaces?",
+    "options": [
+      "Fitts’ Law",
+      "Hick’s Law",
+      "Occam’s Razor",
+      "Gestalt Principles"
+    ],
+    "answer": "Occam’s Razor"
+  },
+  {
+    "question": "What is the purpose of a 'mockup' in UI design?",
+    "options": [
+      "To create a high-fidelity visual representation of the interface",
+      "To manage backend APIs",
+      "To optimize database queries",
+      "To handle user authentication"
+    ],
+    "answer": "To create a high-fidelity visual representation of the interface"
+  },
+  {
+    "question": "Which CSS pseudo-class styles an element when a user hovers over it?",
+    "options": [
+      ":focus",
+      ":hover",
+      ":active",
+      ":visited"
+    ],
+    "answer": ":hover"
+  },
+  {
+    "question": "What is the purpose of 'user testing' in UX design?",
+    "options": [
+      "To validate designs by observing real user interactions",
+      "To manage server-side rendering",
+      "To create database schemas",
+      "To optimize API performance"
+    ],
+    "answer": "To validate designs by observing real user interactions"
+  },
+  {
+    "question": "Which accessibility guideline ensures sufficient color contrast for readability?",
+    "options": [
+      "WCAG",
+      "ARIA",
+      "Section 508",
+      "ISO 9241"
+    ],
+    "answer": "WCAG"
+  },
+  {
+    "question": "What is the purpose of a 'user story' in UX design?",
+    "options": [
+      "To describe a feature from the user’s perspective",
+      "To manage backend routes",
+      "To optimize database queries",
+      "To create animations"
+    ],
+    "answer": "To describe a feature from the user’s perspective"
+  },
+  {
+    "question": "Which CSS property controls the spacing between lines of text?",
+    "options": [
+      "letter-spacing",
+      "line-height",
+      "word-spacing",
+      "text-indent"
+    ],
+    "answer": "line-height"
+  },
+  {
+    "question": "What is the role of 'information hierarchy' in UI design?",
+    "options": [
+      "To prioritize content for better user comprehension",
+      "To manage API endpoints",
+      "To optimize server performance",
+      "To handle database migrations"
+    ],
+    "answer": "To prioritize content for better user comprehension"
+  },
+  {
+    "question": "Which UI design pattern is used to navigate between sections of a website?",
+    "options": [
+      "Tabs",
+      "Modal",
+      "Carousel",
+      "Dropdown"
+    ],
+    "answer": "Tabs"
+  }
+]
