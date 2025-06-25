@@ -1,3 +1,4 @@
+import "./i18n/i18n";
 import './App.css';
 import { useState } from 'react';
 import Home from './Pages/Home';
@@ -11,6 +12,8 @@ import About from './Components/About/About.jsx';
 import ContactUs from './Components/ContactUs/ContactUs.jsx';
 import Results from './Pages/Results/Results.jsx';
 import ReviewQuestion from './Pages/ReviewQuestion/ReviewQuestion.jsx';
+import CourseDetails from "./Pages/CourseDetails/CourseDetails.jsx";
+
 function App() {
   return (
     <CourseProvider>
@@ -28,6 +31,7 @@ function App() {
       <Route path='/contactus' element={<ContactUs />} />
       <Route path='/results' element={<Results />} />
       <Route path='/review' element={<ReviewQuestion />} />
+      <Route path='/course/:courseId' element={<CourseDetails />} />
       </Routes>
       <Footer />
       </BrowserRouter>

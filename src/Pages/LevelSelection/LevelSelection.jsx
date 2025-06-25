@@ -50,8 +50,8 @@ const LevelSelection = () => {
       initial={{ opacity: 0, y: -40 }}
       animate={animateStart ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7 }}
-    >
-      <h2>Choose the question level</h2>
+    > <p className="course-name" style={{display:'inline-block',fontWeight:'700', fontSize:'30px' ,marginBottom:'1px'}}>"{courseSelected}"</p>
+      <h3>How hard do you want the questions to be?</h3>
       <div className="level-cards">
         {levels.map((level) => (
           <motion.div
