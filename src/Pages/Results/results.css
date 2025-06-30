@@ -29,3 +29,11 @@
 .results button:hover {
   background-color: #005e00;
 }
+body.dark-mode .results{
+  background-color: #555;
+
+}
+body.dark-mode .results h2 ,
+body.dark-mode .results p{
+  color:#fff ;
+}

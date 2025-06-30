@@ -74,3 +74,6 @@ body.dark-mode .footer-links-ul{
   background-color: #000;
   color: #005e00;
 }
+body.dark-mode .footer-links-ul li{
+  background-color: #000;
+}

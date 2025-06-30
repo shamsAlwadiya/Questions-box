@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import frontendRoadmap from "../../Assets/images/frontend-roadmap.jpeg";
 import backendRoadmap from "../../Assets/images/backend-roadmap.jpeg";
 import fullStackRoadmap from "../../Assets/images/fullStack-roadmap.jpeg";
 import uxuiRoadmap from "../../Assets/images/uxui-roadmap.jpeg";
-import './CourseDetails.css'
+import { HiArrowRight } from "react-icons/hi";
+import { CourseContext } from "../../Context/ThemeContext";
+import "./CourseDetails.css";
 const coursesData = {
   frontend: {
     title: "Frontend Development",
@@ -32,8 +34,9 @@ const coursesData = {
   },
   backend: {
     title: "Backend Development",
-    overview: "Backend development is the part of web development that focuses on what happens behind the scenes — managing data, servers, APIs, and business logic that power the frontend. Users don’t see the backend directly, but it’s essential for storing data, authentication, processing requests, and more.",
-     updates: [
+    overview:
+      "Backend development is the part of web development that focuses on what happens behind the scenes — managing data, servers, APIs, and business logic that power the frontend. Users don’t see the backend directly, but it’s essential for storing data, authentication, processing requests, and more.",
+    updates: [
       {
         title: "Cloud & Serverless Growth",
         details:
@@ -55,8 +58,9 @@ const coursesData = {
   },
   fullStack: {
     title: "FullStack Development",
-    overview: "Full-stack development refers to the ability to work on both the frontend (what users see) and backend (server, database, logic) of a web application. A full-stack developer can build entire web apps from start to finish",
-     updates: [
+    overview:
+      "Full-stack development refers to the ability to work on both the frontend (what users see) and backend (server, database, logic) of a web application. A full-stack developer can build entire web apps from start to finish",
+    updates: [
       {
         title: "AI-Powered Development Tools",
         details:
@@ -78,8 +82,9 @@ const coursesData = {
   },
   uxui: {
     title: "UI/UX Design",
-    overview: "UX/UI design focuses on creating intuitive, engaging, and accessible digital experiences. UX (User Experience) is about optimizing the overall interaction users have with a product, while UI (User Interface) deals with the visual and interactive elements that users engage with directly.",
-      updates: [
+    overview:
+      "UX/UI design focuses on creating intuitive, engaging, and accessible digital experiences. UX (User Experience) is about optimizing the overall interaction users have with a product, while UI (User Interface) deals with the visual and interactive elements that users engage with directly.",
+    updates: [
       {
         title: "AI-Driven Personalization & Adaptive Interfaces",
         details:
@@ -104,47 +109,45 @@ const coursesData = {
 const CourseDetails = () => {
   const { courseId } = useParams();
   const navigate = useNavigate();
-
+  const {theme , handleTheme} =useContext(CourseContext)
   const course = coursesData[courseId];
 
-  if (!course) return (
-    <div className="not-available-course">
-
+  if (!course)
+    return (
+      <div className="not-available-course">
         <h2>Course not available.</h2>
-        <button onClick={()=>navigate('/')}>back</button>
-    </div>
-  )
-  ;
-
+        <button onClick={() => navigate("/")}>back</button>
+      </div>
+    );
+  
   return (
     <div className="course-details-container" style={{ padding: "20px" }}>
-      <h1>{course.title}</h1>
+      <h1 className="course-title">{course.title}</h1>
 
       <section>
         <h2>Overview</h2>
-        <p>{course.overview}</p>
+        <p className="overview-text">{course.overview}</p>
       </section>
 
       <section>
-        <h2>Latest updates</h2>
-        <ul>
-  {course.updates.map((update, index) => (
-    <li key={index}>
-      <strong>{update.title}</strong>: {update.details}
-    </li>
-  ))}
-</ul>
-
+        <h2 >Latest updates</h2>
+        <ul >
+          {course.updates.map((update, index) => (
+            <li key={index} className="latest-updates-lists">
+              <strong>{update.title}</strong><p style={{fontSize:'17px'}} className="update-details"> {update.details}</p>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section>
         <h2>🗺️ Roadmap</h2>
-        <p>A quick look at the roadmap for this major:</p>
+        <p className="roadmapText">A quick look at the roadmap for this major:</p>
+          <div className="roadmap">
 
         <img
           src={course.roadmapImage}
           alt={`${course.title} roadmap preview`}
-
           style={{
             width: "100%",
             maxWidth: "800px",
@@ -152,42 +155,48 @@ const CourseDetails = () => {
             marginTop: "10px",
           }}
         />
+        <div className="roadmap-text">
 
         <a
+          className="full-map"
           href={course.roadmapLink}
           target="_blank"
           rel="noopener noreferrer"
-          style={{
-            display: "inline-block",
-            marginTop: "15px",
-            backgroundColor: "green",
-            color: "white",
-            padding: "10px 20px",
-            borderRadius: "8px",
-            textDecoration: "none",
-            fontWeight: "bold",
-          }}
         >
-          View the full map on the official website 🌐
+          View full roadmap 
+
         </a>
+        <HiArrowRight /> 
+        </div>
+
+
+          </div>
       </section>
 
-      <section style={{ marginTop: "20px" }}>
-        <button
-          onClick={() => navigate(`/levelSelection?course=${courseId}`)}
-          style={{
-            backgroundColor: "green",
-            color: "white",
-            padding: "10px 20px",
-            border: "none",
-            borderRadius: "5px",
-            fontSize: "16px",
-            cursor: "pointer",
-          }}
-        >
-        Start the challenge
+     <div className="buttons">
+
+        <button onClick={
+          () => {navigate('/')
+          window.scrollTo({ top: 0, behavior: 'smooth' })
+          
+         
+
+          }} 
+          className="back-btn">
+          Back
         </button>
-      </section>
+        <button onClick={() => {
+          navigate(`/levelSelection?course=${courseId}`)
+          window.scrollTo({top:0 ,behavior:'smooth'} )
+          
+        }
+
+        } className="question-btn">
+          Start the challenge
+        </button>
+     </div>
+
+      
     </div>
   );
 };

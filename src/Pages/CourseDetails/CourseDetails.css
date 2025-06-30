@@ -1,5 +1,5 @@
 .course-details-container {
-  max-width: 900px;
+  max-width: 90%;
   margin: 40px auto;
   padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,7 +12,7 @@
 .course-details-container h1 {
   font-size: 2.8rem;
   margin-bottom: 20px;
-  color: #2c7a2c; /* لون أخضر مريح */
+  color: #2c7a2c; 
   text-align: center;
   font-weight: 700;
 }
@@ -59,41 +59,51 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   margin-top: 10px;
 }
-
-.course-details-container a {
-  display: inline-block;
-  margin-top: 15px;
-  background-color: #2c7a2c;
-  color: white;
-  padding: 12px 25px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
+.course-details-container .roadmap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
-.course-details-container a:hover {
-  background-color: #225522;
+.course-details-container .roadmap-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;  
 }
-
-.course-details-container button {
-  background-color: #2c7a2c;
-  color: white;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 7px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+ .course-details-container .full-map{
+   color: #000;
+  padding: 10px 5px;
+  font-size: 15px;
   font-weight: 600;
-  width: 100%;
-  max-width: 280px;
+ }
+ .course-details-container .buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.course-details-container .question-btn{
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 10px;
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  cursor: pointer;
+  
 }
-
-.course-details-container button:hover {
-  background-color: #225522;
+.course-details-container .back-btn{
+    background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 10px;
+  display: block;
+  margin-right: auto;
+  cursor: pointer;
 }
 
 .not-available-course {
@@ -127,3 +137,42 @@
 .not-available-course button:hover {
   background-color: #7a2222;
 }
+
+
+body.dark-mode,
+body.dark-mode .navbar,
+body.dark-mode input,
+body.dark-mode Link,
+body.dark-mode li,
+body.dark-mode h1,
+body.dark-mode input::placeholder {
+  color: #fff;
+  background-color: #333;
+}
+ body.dark-mode .course-details-container ,
+ body.dark-mode .course-title ,
+ body.dark-mode .latest-updates ,
+ body.dark-mode .latest-updates-lists ,
+ body.dark-mode .overview-text ,
+ body.dark-mode .roadmapText ,
+ body.dark-mode .update-details
+ {
+  background-color: #222;
+  color: #fff;
+ }
+ body.dark-mode .back-btn , 
+ body.dark-mode .question-btn{
+  border: 1px solid #777;
+ }
+ body.dark-mode section h2 ,
+  body.dark-mode section ul 
+ {
+
+   color: green;
+  border-bottom: 2px solid #999;
+ }
+ 
+ body.dark-mode .full-map{
+  color: #fff;
+ }
+

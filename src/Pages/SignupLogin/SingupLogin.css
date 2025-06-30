@@ -1,0 +1,215 @@
+.container {
+  display: flex;
+  position: relative;
+  width: 700px;
+  height: 570px;
+  overflow: hidden;
+  margin: 30px auto;
+  border: 1px solid #f1f1f1;
+  border-radius: 6px;
+}
+
+.signup,
+.login {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.5s ease;
+}
+
+.signup {
+  transform: translateX(0);
+  opacity: 1;
+  z-index: 2;
+  background: #f5f5f5;
+  width: 460px;
+}
+
+.login {
+  transform: translateX(100%);
+  opacity: 0;
+  z-index: 1;
+  background: #fff;
+}
+
+.container.active .signup {
+  transform: translateX(-100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+.container.active .login {
+  transform: translateX(0);
+  opacity: 1;
+  z-index: 2;
+}
+.overlay {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+.overlay h2{
+    font-size: 20px;
+}
+.container.active .overlay {
+  transform: translateX(-100%);
+}
+
+.overlay .buttons-overlay{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 40px;
+}
+.overlay .buttons-overlay .overlay-btn{
+    background-color: green;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid green;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+
+}
+.overlay .buttons-overlay .overlay-btn.active{
+    background-color: #044004;
+    border: 1px solid #044004;
+}
+/* .overlay .buttons-overlay .overlay-btn:hover{
+    background-color: #005e00;
+
+} */
+.container.active .overlay {
+  transform: translateX(-100%);
+}
+.signup, .login {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  transition: all 0.6s ease-in-out;
+}
+
+.signup {
+  left: 0;
+  z-index: 2;
+
+}
+
+.login {
+  right: 0;
+  transform: translateX(100%);
+  z-index: 1;
+}
+
+.container.active .signup {
+  transform: translateX(-100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+.container.active .login {
+  transform: translateX(0%);
+  opacity: 1;
+  z-index: 2;
+}
+.register {
+  width: 360px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.form-input-label,
+.full-name label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+
+label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.register-btn:hover {
+  background-color: #005e00;
+}
+.signup{
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+       border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 360px;
+
+}
+.login {
+  width: 360px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+body.dark-mode .signup ,
+body.dark-mode .login 
+
+{
+    background-color:#444;
+    color: #fff;
+    border: 1px solid #444;
+}
+body.dark-mode .overlay{
+    background-color: #333;
+}
+body.dark-mode label{
+    color: #fff;
+}
+body.dark-mode .signup input,
+body.dark-mode .login input
+ {
+    background-color: #333;
+}

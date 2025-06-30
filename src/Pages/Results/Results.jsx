@@ -18,7 +18,7 @@ const Results = () => {
       </h2>
       <button onClick={handleReview}>{t("review")}</button>
 
-      <p style={{ color: "#666", marginBottom: "30px" }}>
+      <p style={{  marginBottom: "30px" }}>
         {score >= questions.length / 2 ? "Well done! 🌟" : "Keep practicing 💪"}
       </p>
     </div>

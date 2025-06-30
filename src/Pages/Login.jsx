@@ -19,6 +19,7 @@ const Login = ({setUser}) => {
   return (
     <div className='login'>
       <button className='login-btn' onClick={handleGoogleSignIn}>login</button>
+      
     </div>
   )
 }

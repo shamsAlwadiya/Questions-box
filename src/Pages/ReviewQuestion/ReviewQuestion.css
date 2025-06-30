@@ -36,6 +36,7 @@
 
 .correct-answer {
   font-size: 15px;
-  color: #333;
+  color: green;
   margin-top: 0.3rem;
+  font-weight: 600;
 }

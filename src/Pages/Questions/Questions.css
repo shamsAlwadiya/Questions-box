@@ -1,6 +1,16 @@
 .questions{
     padding: 10px;
 }
+.timer {
+    display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 270px;
+  
+}
+
+
 .questions h2{
     font-size: 30px;
     font-weight: 700;
@@ -10,7 +20,6 @@
 }
 .questions-lists{
     list-style: none;
-    padding: 15px;
 }
 .questions-lists li{
     margin-top: 15px;
@@ -37,11 +46,20 @@
     cursor: pointer;
     
 }
-.option-label{
-    display: block;
-    margin-top: 10px;
-    cursor: pointer;
+.option-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  cursor: pointer;
 }
+.option-input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+
 .buttons{
     display: flex;
     justify-content: space-around;
@@ -49,6 +67,7 @@
     
 
 }
+
 .previous-btn , .next-btn{
     font-size: 20px;
     background-color: #ccc;
@@ -65,4 +84,7 @@
     background-color: #ccc;
     color: #aaa;
     cursor: no-drop;
+}
+body.dark-mode .questions{
+    background-color: #555;
 }
